@@ -1,0 +1,770 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{47CD334C-5D5F-4578-B844-BE707357CD9F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DOGPlatform</RootNamespace>
+    <AssemblyName>DOGPlatform</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>Stone Henge.ico</ApplicationIcon>
+    <SignManifests>false</SignManifests>
+    <StartupObject>
+    </StartupObject>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.mshtml, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="cBase.cs" />
+    <Compile Include="cCalDistance.cs" />
+    <Compile Include="cCallInkscape.cs" />
+    <Compile Include="cContextMenuStripTreeNodeBase.cs" />
+    <Compile Include="cContextMenuStripBaseLayer.cs" />
+    <Compile Include="cContextMenuStripInputLayer.cs" />
+    <Compile Include="cContextMenuStripInputWellLog.cs" />
+    <Compile Include="cContextMenuStripInputWellsManager.cs" />
+    <Compile Include="cContextMenuStripBaseWell.cs" />
+    <Compile Include="cContextMenuStripLogItem.cs" />
+    <Compile Include="cContextMenuStripSVGGraph.cs" />
+    <Compile Include="cContextMenuStripWellSection.cs" />
+    <Compile Include="cInkExtensionColor.cs" />
+    <Compile Include="cIODicLayerDataDynamic.cs" />
+    <Compile Include="cExportData4Petrel.cs" />
+    <Compile Include="cIOGeoEarthText.cs" />
+    <Compile Include="cIOgeomodel.cs" />
+    <Compile Include="cGridPara.cs" />
+    <Compile Include="cIOinputHorizionalWellPath.cs" />
+    <Compile Include="cIOinputInjectProfile.cs" />
+    <Compile Include="cIOinputLayerSerier.cs" />
+    <Compile Include="cContextMenuStripDataTable.cs" />
+    <Compile Include="cIOVoronoi.cs" />
+    <Compile Include="cConvexHull.cs" />
+    <Compile Include="cProjectData.cs" />
+    <Compile Include="cPublicPanel.cs" />
+    <Compile Include="cSortPoints.cs" />
+    <Compile Include="FormAnaTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAnaTable.Designer.cs">
+      <DependentUpon>FormAnaTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCalArea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCalArea.Designer.cs">
+      <DependentUpon>FormCalArea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormConnect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormConnect.Designer.cs">
+      <DependentUpon>FormConnect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDataTableDeal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDataTableDeal.Designer.cs">
+      <DependentUpon>FormDataTableDeal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProfilePIcal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProfilePIcal.Designer.cs">
+      <DependentUpon>FormProfilePIcal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDataImportLayer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDataImportLayer.Designer.cs">
+      <DependentUpon>FormDataImportLayer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDataViewSingleWell.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDataViewSingleWell.Designer.cs">
+      <DependentUpon>FormDataViewSingleWell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormGridDefine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGridDefine.Designer.cs">
+      <DependentUpon>FormGridDefine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDataImportSingleWell.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDataImportSingleWell.Designer.cs">
+      <DependentUpon>FormDataImportSingleWell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDataImportLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDataImportLog.Designer.cs">
+      <DependentUpon>FormDataImportLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDataImportProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDataImportProject.Designer.cs">
+      <DependentUpon>FormDataImportProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProfileSelectWells.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProfileSelectWells.Designer.cs">
+      <DependentUpon>FormProfileSelectWells.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormVoronoiAna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVoronoiAna.Designer.cs">
+      <DependentUpon>FormVoronoiAna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ItemConnectInjPro.cs" />
+    <Compile Include="ItemDicLayerDataDynamic.cs" />
+    <Compile Include="ItemDicPerforation.cs" />
+    <Compile Include="ItemFaultLine.cs" />
+    <Compile Include="ItemJSJL.cs" />
+    <Compile Include="ItemLogHeadInfor.cs" />
+    <Compile Include="ItemWellHead.cs" />
+    <Compile Include="ItemDicInjectProfile.cs" />
+    <Compile Include="ItemHorizonalWellPath.cs" />
+    <Compile Include="ItemDicWellPath.cs" />
+    <Compile Include="cDogTrack.cs" />
+    <Compile Include="cDogTrackEvationRuler.cs" />
+    <Compile Include="cDogTrackJSJL.cs" />
+    <Compile Include="cDogTrackLayer.cs" />
+    <Compile Include="cDogTrackLog.cs" />
+    <Compile Include="cDogTrackMDRuler.cs" />
+    <Compile Include="cDogTrackPeforation.cs" />
+    <Compile Include="cDogTrackText.cs" />
+    <Compile Include="cFileOperateDicLogHeadGlobe.cs" />
+    <Compile Include="cMenuStripDog.cs" />
+    <Compile Include="cPerforationList.cs" />
+    <Compile Include="itemWellLayerVoi.cs" />
+    <Compile Include="PointD.cs" />
+    <Compile Include="SVG\cSVGXEPatternBase.cs" />
+    <Compile Include="SVG\cSVGXEPatternCarbonatie.cs" />
+    <Compile Include="SVG\cSVGXEPatternLithoSand.cs" />
+    <Compile Include="SVG\cSVGSectionTrackConnect.cs" />
+    <Compile Include="SVG\cSVGSectionTrack.cs" />
+    <Compile Include="SVG\cSVGSectionTrackJSJL.cs" />
+    <Compile Include="SVG\cSVGSectionTrackLitho.cs" />
+    <Compile Include="SVG\cSVGSectionTrackPeforation.cs" />
+    <Compile Include="SVG\cSVGSectionTrackText.cs" />
+    <Compile Include="SVG\cSVGSectionTrackLayer.cs" />
+    <Compile Include="SVG\cSVGSectionTrackLog.cs" />
+    <Compile Include="SVG\cSVGSectionTrackElevationRuler.cs" />
+    <Compile Include="SVG\cSVGSectionWell.cs" />
+    <Compile Include="SVG\cSVGDocTrack.cs" />
+    <Compile Include="SVG\cSVGElement.cs" />
+    <Compile Include="SVG\cSVGText.cs" />
+    <Compile Include="cTreeViewProjectData.cs" />
+    <Compile Include="cMakeSingleWellGraph.cs" />
+    <Compile Include="ControlMoverOrResizer.cs" />
+    <Compile Include="cFileOperateDicLogHeadProject.cs" />
+    <Compile Include="SVG\cSVGAddElement.cs" />
+    <Compile Include="SVG\cSVGcss.cs" />
+    <Compile Include="cIOBase.cs" />
+    <Compile Include="cIOInputWellInject.cs" />
+    <Compile Include="cIOinputWellProduct.cs" />
+    <Compile Include="cCordinationTransform.cs" />
+    <Compile Include="cIOMapLayer.cs" />
+    <Compile Include="cSoftwareLimited.cs" />
+    <Compile Include="SVG\cSVGXEPatternGravel.cs" />
+    <Compile Include="SVG\cSVGDocPatternSand.cs" />
+    <Compile Include="SVG\cSVGXEPatternShale.cs" />
+    <Compile Include="SVG\cSVGscript.cs" />
+    <Compile Include="cMenuStripMain.cs" />
+    <Compile Include="cContextMenuStripInputWell.cs" />
+    <Compile Include="ItemWell.cs" />
+    <Compile Include="ItemWellMapPosition.cs" />
+    <Compile Include="cIOWellSection.cs" />
+    <Compile Include="ItemWellSection.cs" />
+    <Compile Include="cZone.cs" />
+    <Compile Include="FormAddSectionLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAddSectionLog.Designer.cs">
+      <DependentUpon>FormAddSectionLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormExportLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormExportLog.Designer.cs">
+      <DependentUpon>FormExportLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormWellSectionLogChoose.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormWellSectionLogChoose.Designer.cs">
+      <DependentUpon>FormWellSectionLogChoose.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormWellManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormWellManager.Designer.cs">
+      <DependentUpon>FormWellManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogSetting.Designer.cs">
+      <DependentUpon>FormLogSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormWebNavigation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormWebNavigation.Designer.cs">
+      <DependentUpon>FormWebNavigation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ItemDicLayerDataStatic.cs" />
+    <Compile Include="ItemDicLayerDepth.cs" />
+    <Compile Include="ItemLayerSplitFactor.cs" />
+    <Compile Include="ItemWellView.cs" />
+    <Compile Include="SVG\cSVGSectionTrackProfile.cs" />
+    <Compile Include="SVG\cSVGXEPatternMud.cs" />
+    <Compile Include="SVG\cXMLLayerMapWellBarGraph.cs" />
+    <Compile Include="SVG\cXMLLayerMapWellPieGraph.cs" />
+    <Compile Include="Track.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TrackDepthRuler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TrackJSJL.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="trackJSJLDataList.cs" />
+    <Compile Include="trackLayerDepthDataList.cs" />
+    <Compile Include="TrackLitho.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="trackLithoDataList.cs" />
+    <Compile Include="TrackLog.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="trackLogDataList.cs" />
+    <Compile Include="TrackPerforation.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="trackInputPerforationDataList.cs" />
+    <Compile Include="trackProfileDataList.cs" />
+    <Compile Include="trackScatterDataList.cs" />
+    <Compile Include="TrackText.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="trackTextDataList.cs" />
+    <Compile Include="TreeViewExtensions.cs" />
+    <Compile Include="ItemDicWellInjection.cs" />
+    <Compile Include="ItemWellLayerGeologyProperty.cs" />
+    <Compile Include="ItemWellLayerYMValue.cs" />
+    <Compile Include="Voronoi.cs" />
+    <Compile Include="VoronoiElements.cs" />
+    <Compile Include="WellNavigation.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ItemDicWellProduct.cs" />
+    <Compile Include="ItemWellValue.cs" />
+    <Compile Include="XML\cXMLbase.cs" />
+    <Compile Include="XML\cXMLLayerMapGeoproperty.cs" />
+    <Compile Include="XML\cXMLLayerMapHorizonalWell.cs" />
+    <Compile Include="XML\cXMLLayerMapFaultLine.cs" />
+    <Compile Include="FormPatternElement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPatternElement.Designer.cs">
+      <DependentUpon>FormPatternElement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormWellSectionGeology.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormWellSectionGeology.Designer.cs">
+      <DependentUpon>FormWellSectionGeology.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProductAnalisys.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProductAnalisys.Designer.cs">
+      <DependentUpon>FormProductAnalisys.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SVG\cSVGDocRoseMap.cs" />
+    <Compile Include="FormDataAnalysis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDataAnalysis.Designer.cs">
+      <DependentUpon>FormDataAnalysis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SVG\cSVGBasePattern.cs" />
+    <Compile Include="SVG\cSVGPie.cs" />
+    <Compile Include="SVG\cSVGDocLayerMapProduction.cs" />
+    <Compile Include="SVG\cSVGDocPoleMap.cs" />
+    <Compile Include="SVG\cSVGBaseMap.cs" />
+    <Compile Include="cExcel.cs" />
+    <Compile Include="cDirDataSourceSingleWell.cs" />
+    <Compile Include="XML\cXMLLayerMapLog.cs" />
+    <Compile Include="XML\cXMLLayerMapDynamic.cs" />
+    <Compile Include="XML\cXMLLayerMapStatic.cs" />
+    <Compile Include="XML\cXMLMapLayerText.cs" />
+    <Compile Include="XML\cXMLProductMap.cs" />
+    <Compile Include="XML\cXMLSingleWell.cs" />
+    <Compile Include="FormDataTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDataTable.Designer.cs">
+      <DependentUpon>FormDataTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSingleLogImport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSingleLogImport.Designer.cs">
+      <DependentUpon>FormSingleLogImport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTrackLitho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTrackLitho.Designer.cs">
+      <DependentUpon>FormTrackLitho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTrackLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTrackLog.Designer.cs">
+      <DependentUpon>FormTrackLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cIODicLayerDataStatic.cs" />
+    <Compile Include="cIOinputWellPerforation.cs" />
+    <Compile Include="cIOProject.cs" />
+    <Compile Include="cCalConnectionInject2Production.cs" />
+    <Compile Include="cCalGeologyStatistics.cs" />
+    <Compile Include="cIOinputJSJL.cs" />
+    <Compile Include="cIOinputLog.cs" />
+    <Compile Include="cIOinputWellPath.cs" />
+    <Compile Include="cIODicInjProCon.cs" />
+    <Compile Include="cInterpolation.cs" />
+    <Compile Include="cPublicMethodBase.cs" />
+    <Compile Include="cIOinputLayerDepth.cs" />
+    <Compile Include="cIOinputWellHead.cs" />
+    <Compile Include="cDataQuanlityControl.cs" />
+    <Compile Include="XML\cXMLProject.cs" />
+    <Compile Include="FormWellInfor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormWellInfor.Designer.cs">
+      <DependentUpon>FormWellInfor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormInjProMap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormInjProMap.Designer.cs">
+      <DependentUpon>FormInjProMap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSettingSplitFactor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSettingSplitFactor.Designer.cs">
+      <DependentUpon>FormSettingSplitFactor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSingleWellLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSingleWellLog.Designer.cs">
+      <DependentUpon>FormSingleWellLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SVG\cSVGBaseSection.cs" />
+    <Compile Include="SVG\cSVGDocSingleWell.cs" />
+    <Compile Include="SVG\cSVGBase.cs" />
+    <Compile Include="SVG\cSVGDocFenceDiagram.cs" />
+    <Compile Include="c2DGeometryAlgorithm.cs" />
+    <Compile Include="cLine.cs" />
+    <Compile Include="FormWellsGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormWellsGroup.Designer.cs">
+      <DependentUpon>FormWellsGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MarkControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MarkControl.Designer.cs">
+      <DependentUpon>MarkControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SVG\cSVGDocLayerMap.cs" />
+    <Compile Include="cProjectManager.cs" />
+    <Compile Include="cGeomodelData.cs" />
+    <Compile Include="cPublicMethodForm.cs" />
+    <Compile Include="cCalBase.cs" />
+    <Compile Include="XML\cXMLFenceDiagram.cs" />
+    <Compile Include="XML\cXDocSection.cs" />
+    <Compile Include="XML\cXMLLayerMapBase.cs" />
+    <Compile Include="FormCalInterWell.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCalInterWell.Designer.cs">
+      <DependentUpon>FormCalInterWell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCalReservor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCalReservor.Designer.cs">
+      <DependentUpon>FormCalReservor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCalWellDistance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCalWellDistance.Designer.cs">
+      <DependentUpon>FormCalWellDistance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormInjProAna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormInjProAna.Designer.cs">
+      <DependentUpon>FormInjProAna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCopyRight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCopyRight.Designer.cs">
+      <DependentUpon>FormCopyRight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMapLayer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMapLayer.Designer.cs">
+      <DependentUpon>FormMapLayer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormWellSectionPath.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormWellSectionPath.Designer.cs">
+      <DependentUpon>FormWellSectionPath.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="XML\cXMLTrackElevationRuler.cs" />
+    <Compile Include="XML\cXETrackJSJL.cs" />
+    <Compile Include="XML\cXETrackLayer.cs" />
+    <Compile Include="XML\cXETrackLog.cs" />
+    <Compile Include="XML\cXETrackPerforation.cs" />
+    <Compile Include="XML\cXETrackText.cs" />
+    <EmbeddedResource Include="FormAnaTable.resx">
+      <DependentUpon>FormAnaTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCalArea.resx">
+      <DependentUpon>FormCalArea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDataTableDeal.resx">
+      <DependentUpon>FormDataTableDeal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProfileSelectWells.resx">
+      <DependentUpon>FormProfileSelectWells.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVoronoiAna.resx">
+      <DependentUpon>FormVoronoiAna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormWellInfor.resx">
+      <DependentUpon>FormWellInfor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAddSectionLog.resx">
+      <DependentUpon>FormAddSectionLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProfilePIcal.resx">
+      <DependentUpon>FormProfilePIcal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCalInterWell.resx">
+      <DependentUpon>FormCalInterWell.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCalReservor.resx">
+      <DependentUpon>FormCalReservor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCalWellDistance.resx">
+      <DependentUpon>FormCalWellDistance.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDataImportLayer.resx">
+      <DependentUpon>FormDataImportLayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDataViewSingleWell.resx">
+      <DependentUpon>FormDataViewSingleWell.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormExportLog.resx">
+      <DependentUpon>FormExportLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGridDefine.resx">
+      <DependentUpon>FormGridDefine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDataImportSingleWell.resx">
+      <DependentUpon>FormDataImportSingleWell.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDataImportLog.resx">
+      <DependentUpon>FormDataImportLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDataImportProject.resx">
+      <DependentUpon>FormDataImportProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormWellSectionLogChoose.resx">
+      <DependentUpon>FormWellSectionLogChoose.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormWellManager.resx">
+      <DependentUpon>FormWellManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDataTable.resx">
+      <DependentUpon>FormDataTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogSetting.resx">
+      <DependentUpon>FormLogSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPatternElement.resx">
+      <DependentUpon>FormPatternElement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormWellsGroup.resx">
+      <DependentUpon>FormWellsGroup.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormInjProAna.resx">
+      <DependentUpon>FormInjProAna.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCopyRight.resx">
+      <DependentUpon>FormCopyRight.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormWellSectionGeology.resx">
+      <DependentUpon>FormWellSectionGeology.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProductAnalisys.resx">
+      <DependentUpon>FormProductAnalisys.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSingleLogImport.resx">
+      <DependentUpon>FormSingleLogImport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMapLayer.resx">
+      <DependentUpon>FormMapLayer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormInjProMap.resx">
+      <DependentUpon>FormInjProMap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDataAnalysis.resx">
+      <DependentUpon>FormDataAnalysis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTrackLitho.resx">
+      <DependentUpon>FormTrackLitho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTrackLog.resx">
+      <DependentUpon>FormTrackLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSettingSplitFactor.resx">
+      <DependentUpon>FormSettingSplitFactor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSingleWellLog.resx">
+      <DependentUpon>FormSingleWellLog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormWebNavigation.resx">
+      <DependentUpon>FormWebNavigation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormWellSectionPath.resx">
+      <DependentUpon>FormWellSectionPath.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MarkControl.resx">
+      <DependentUpon>MarkControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Track.resx">
+      <DependentUpon>Track.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrackLog.resx">
+      <DependentUpon>TrackLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WaitWindowGUI.resx">
+      <DependentUpon>WaitWindowGUI.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SVG\cSVGDocSection.cs" />
+    <Compile Include="WaitWindow.cs" />
+    <Compile Include="WaitWindowEventArgs.cs" />
+    <Compile Include="WaitWindowGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WaitWindowGUI.designer.cs">
+      <DependentUpon>WaitWindowGUI.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\白云岩.jpg" />
+    <None Include="Resources\灰岩.jpg" />
+    <None Include="Resources\Folder-New.ico" />
+    <None Include="Resources\Folder.ico" />
+    <None Include="Resources\Save.ico" />
+    <None Include="Resources\Zoom-In.ico" />
+    <None Include="Resources\Zoom-Out.ico" />
+    <None Include="Resources\hand.png" />
+    <None Include="Resources\New.ico" />
+    <Content Include="Html\d3.js" />
+    <Content Include="Html\d3.min.js" />
+    <Content Include="Html\testD3.html" />
+    <Content Include="NameRules.txt" />
+    <Content Include="Stone Henge.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Digger\DigRobot\DigRobot.csproj">
+      <Project>{8C2F3066-6D57-4813-9395-E798E5C624B0}</Project>
+      <Name>DigRobot</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

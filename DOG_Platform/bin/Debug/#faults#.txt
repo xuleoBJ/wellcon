@@ -1,0 +1,5 @@
+﻿#faults#.txt
+3
+X
+Y
+Z

@@ -1,0 +1,6 @@
+E:\ProjectPlatform\2015WellCon\DOG_Platform\bin\Debug\DOGPlatform.exe.config
+E:\ProjectPlatform\2015WellCon\DOG_Platform\obj\Debug\DOGPlatform.exe
+E:\ProjectPlatform\2015WellCon\DOG_Platform\obj\Debug\DOGPlatform.pdb
+E:\ProjectPlatform\2015WellCon\wellcon\DOG_Platform\bin\Debug\DOGPlatform.exe.config
+E:\ProjectPlatform\2015WellCon\wellcon\DOG_Platform\obj\Debug\DOGPlatform.exe
+E:\ProjectPlatform\2015WellCon\wellcon\DOG_Platform\obj\Debug\DOGPlatform.pdb
