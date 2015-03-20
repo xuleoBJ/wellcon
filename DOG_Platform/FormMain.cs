@@ -54,7 +54,6 @@ namespace DOGPlatform
         void enableMenu() 
         {
             tsmiData.Enabled = true;
-            tsmiStatisticsCal.Enabled = true;
             tsmiGeologyLayer.Enabled = true;
             tsmiGeologySection.Enabled = true;
             tsmiSaveAnotherProject.Enabled = true;
@@ -1453,6 +1452,11 @@ namespace DOGPlatform
             _form.ShowDialog();
             updateWebSVG();
             updateTreeViewProjectGraph();
+        }
+
+        private void 计算ToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            WaitWindow.Show(this.calStaticWorkerMethod);
         }
 
   
