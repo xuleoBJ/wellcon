@@ -75,8 +75,6 @@ namespace DOGPlatform
                 this.tbcMain.TabPages.Remove(tbcMain.TabPages[i]);
             }
             initialCbbScale();
-            tslblLayer.Visible = false; 
-            tscbbLayer.Visible = false;
         }
 
         //初始化控件当新建工程或者打开工程时
@@ -317,6 +315,7 @@ namespace DOGPlatform
             cCalHeterogeneity.calHeterogeneityInnerLayer();
         }
 
+        //计算小层数据表，作为基础数据表，提供分层井位图等使用。
         private void calStaticWorkerMethod(object sender, WaitWindowEventArgs e)
         {
             Cursor.Current = Cursors.WaitCursor;
@@ -348,29 +347,8 @@ namespace DOGPlatform
             Cursor.Current = Cursors.Default;
         }
 
-        private void calMatchJSJLWorkerMethod(object sender, WaitWindowEventArgs e)
-        {
-            foreach (string _sJH in cProjectData.ltStrProjectJH) cIOinputJSJL.matchJSJL2Layer(_sJH);
-            cIOBase.joinGeoFileFromWellDir(Path.Combine(cProjectManager.dirPathUsedProjectData,"解释结论归小层.txt"),cProjectManager.fileNameWellJSJL);
-        }
+      #endregion
 
-        private void calSplitJSJLWorkerMethod(object sender, WaitWindowEventArgs e)
-        {
-            foreach (string _sJH in cProjectData.ltStrProjectJH) cIOinputJSJL.splitJSJL2Layer(_sJH);
-        }
-        #endregion
-
-        private void tsmiCalWellDistance_Click(object sender, EventArgs e)
-        {
-            FormCalWellDistance formCalDistance = new FormCalWellDistance();
-            formCalDistance.Show();
-        }
-    
-        private void tsmi注采关系分析_Click(object sender, EventArgs e)
-        {
-            FormInjProAna forminjectProductAna = new FormInjProAna();
-            forminjectProductAna.Show();
-        }
 
         private void calDynamicWorkerMethod(object sender, WaitWindowEventArgs e)
         {
@@ -394,25 +372,6 @@ namespace DOGPlatform
             MessageBox.Show("计算完成。消耗时间：" + elapsedTime);
         }
 
-        private void calWellConnectWorkerMethod(object sender, WaitWindowEventArgs e)
-        {
-            //主要分析计算在生产过程中，本井在一定历史时期内的井型，可能为水井，也可能为油井。
-            // 井号 小层名 时间 射孔厚度 砂厚 渗透率 孔隙度 吸水(产液)厚度 吸水%
-            Stopwatch stopWatch = new Stopwatch();
-            stopWatch.Start();
-            cIODicInjProCon.updateWellConnect();
-            stopWatch.Stop();
-            TimeSpan ts = stopWatch.Elapsed;
-            string elapsedTime = String.Format("{0:00}:{1:00}:{2:00}.{3:00}",
-               ts.Hours, ts.Minutes, ts.Seconds,
-               ts.Milliseconds / 10);
-            MessageBox.Show("计算完成。消耗时间：" + elapsedTime);
-        }
-
-        private void tsmiCalWellTypeDictionary_Click(object sender, EventArgs e)
-        {
-            WaitWindow.Show(this.calDynamicWorkerMethod);
-        }
 
         private void tsmiSectionWellPattern_Click(object sender, EventArgs e)
         {
@@ -449,31 +408,8 @@ namespace DOGPlatform
             if (sJHselectedOnPanel != "")
             {
                 cProjectManager.delWellFromProject(sJHselectedOnPanel);
-                updateMainForm(); 
+                updateMainForm();
             }
-        }
-
-        private void tsmiCalLayerHeterogeneityInner_Click(object sender, EventArgs e)
-        {
-            WaitWindow.Show(this.calHeterogeneityInnerLayerWorkerMethod);
-        }
-
-        private void tsmiShowLayerHeterogeneityInner_Click(object sender, EventArgs e)
-        {
-            FormDataTable formDatatable = new FormDataTable(cProjectManager.filePathInnerLayerHeterogeneity);
-            formDatatable.Show();
-        }
-
-        private void tsmiShowLayerHeterogeneityInner1_Click(object sender, EventArgs e)
-        {
-            System.Diagnostics.Process.Start("explorer.exe", cProjectManager.filePathInterLayerHeterogeneity);
-        }
-
-        private void tsmiCalXCSJB_Click(object sender, EventArgs e)
-        {
-            WaitWindow.Show(this.calStaticWorkerMethod);
-            //filepathTableData = cProjectManager.filePathLayerDataDic;
-            //updateDatable();
         }
 
         private void tsmiLayerInjectProductSystem_Click(object sender, EventArgs e)
@@ -481,7 +417,7 @@ namespace DOGPlatform
             FormInjProMap formInjProSystemMap = new FormInjProMap();
             formInjProSystemMap.Show();
         }
-
+ 
         private void btnInputWellheaddelDgvLine_Click(object sender, EventArgs e)
         {
             cPublicMethodForm.deleteSelectedRowInDataGridView(dgvWellHead);
@@ -492,10 +428,6 @@ namespace DOGPlatform
             cPublicMethodForm.deleteSelectedRowInDataGridView(dgvLayerSeriers);
         }
 
-        private void tsmiLayerProductionState_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void tabControlMain_DoubleClick(object sender, EventArgs e)
         {
@@ -714,7 +646,6 @@ namespace DOGPlatform
                     break;
             }
          
-           
         }
 
         private void 动态地质分析ToolStripMenuItem_Click(object sender, EventArgs e)
@@ -754,24 +685,6 @@ namespace DOGPlatform
         {
             addGrid(e);
             addWellPosion(e);
-            //if (currentOpreateMode == OpreateMode.DrawLine)
-            //{
-            //    if (iNumClickLineDraw > 0 && iNumClickLineDraw % 2 == 1)
-            //        addCircle(e, pLinePoint1, 4);
-            //    else
-            //        addLine(e, pLinePoint1, pLinePoint2);
-            //}
-            //if (currentOpreateMode == OpreateMode.DrawPolygon)
-            //{
-
-            //    if (listPointPolygon.Count == 1)
-            //        addCircle(e, pLinePoint1, 4);
-            //    else if (listPointPolygon.Count > 1 && bEndDrawPolygon == false)
-            //        for (int i = 0; i < listPointPolygon.Count - 1; i++)
-            //            addLine(e, listPointPolygon[i], listPointPolygon[i + 1]);
-            //    else if (listPointPolygon.Count > 2 && bEndDrawPolygon == true)
-            //        addPolygon(e, listPointPolygon);
-            //}
         }
         
         void addGrid(PaintEventArgs e)
@@ -1077,10 +990,6 @@ namespace DOGPlatform
             cProjectManager.saveProeject2otherDirectionary();
         }
 
-        private void tsmiPetrelWellTops_Click(object sender, EventArgs e)
-        {
-            cExportData4Petrel.exportWellTops();
-        }
 
         private void tsmiWellTops_Click(object sender, EventArgs e)
         {
@@ -1088,12 +997,7 @@ namespace DOGPlatform
             else tbcMain.TabPages.Remove(tbgLayerSeriers); 
         }
 
-        private void tsmi4petrelproductLog_Click(object sender, EventArgs e)
-        {
-            cExportData4Petrel.exportWellInterpretation();
-        }
-
-        private void tsmiFence_Click(object sender, EventArgs e)
+              private void tsmiFence_Click(object sender, EventArgs e)
         {
             FormWellsGroup formFD = new FormWellsGroup();
             formFD.Show();
@@ -1113,20 +1017,6 @@ namespace DOGPlatform
             FormWellsGroup.ShowDialog();
             updateWebSVG();
              updateTreeViewProjectGraph();
-        }
-
-        private void tsmiJSJLmatch_Click(object sender, EventArgs e)
-        {
-            WaitWindow.Show(this.calMatchJSJLWorkerMethod);
-            MessageBox.Show("计算完成。");
-            filepathTableData = Path.Combine(cProjectManager.dirPathUsedProjectData,cProjectManager.fileNameWellJSJL);
-            updateDatable();
-        }
-
-        private void tsmiJSJLsplit_Click(object sender, EventArgs e)
-        {
-            WaitWindow.Show(this.calSplitJSJLWorkerMethod);
-            MessageBox.Show("计算完成。");
         }
 
         private void tvProjectData_AfterLabelEdit(object sender, NodeLabelEditEventArgs e)
@@ -1168,11 +1058,6 @@ namespace DOGPlatform
             updateWebSVG();
         }
 
-        private void tsmiAdjustProfile_Click(object sender, EventArgs e)
-        {
-            FormProfileSelectWells _form = new FormProfileSelectWells();
-            _form.Show();
-        }
 
         private void tsmiSectionFence_Click(object sender, EventArgs e)
         {
@@ -1243,12 +1128,6 @@ namespace DOGPlatform
             tbcMain.TabPages.Remove(tbgLayerSeriers);
         }
 
-        private void tsmiConnectCal_Click(object sender, EventArgs e)
-        {
-            FormInjProAna form = new FormInjProAna();
-            form.Show();
-        }
-
         private void FormMain_FormClosing(object sender, FormClosingEventArgs e)
         {
             if (cProjectData.ltStrProjectJH.Count > 0)
@@ -1313,11 +1192,7 @@ namespace DOGPlatform
             return false; 
         }
 
-        private void tsmiCalRes_Click(object sender, EventArgs e)
-        {
-            FormCalReservor _form = new FormCalReservor();
-            _form.Show();
-        }
+    
 
         private void tvResultTable_AfterSelect(object sender, TreeViewEventArgs e)
         {
@@ -1364,34 +1239,6 @@ namespace DOGPlatform
             Cursor.Current = Cursors.Default;
         }
 
-        private void tsmiVoronoical_Click(object sender, EventArgs e)
-        {
-            Cursor.Current = Cursors.WaitCursor;
-            Stopwatch stopWatch = new Stopwatch();
-            stopWatch.Start();
-            cIOVoronoi.calVoiAndwrite2File();
-            stopWatch.Stop();
-            TimeSpan ts = stopWatch.Elapsed;
-            string elapsedTime = String.Format("{0:00}:{1:00}:{2:00}.{3:00}",
-               ts.Hours, ts.Minutes, ts.Seconds,
-               ts.Milliseconds / 10);
-            MessageBox.Show("计算完成。消耗时间：" + elapsedTime);
-            Cursor.Current = Cursors.Default;
-        }
-
-        private void tsmiHeterogeneityLayerInner_Click(object sender, EventArgs e)
-        {
-            WaitWindow.Show(this.calHeterogeneityInnerLayerWorkerMethod);
-            filepathTableData = cProjectManager.filePathInnerLayerHeterogeneity;
-            updateDatable();
-        }
-
-        private void tsmiHeterogeneityLayerInter_Click(object sender, EventArgs e)
-        {
-            WaitWindow.Show(this.calHeterogeneityInterLayerWorkerMethod);
-            filepathTableData = cProjectManager.filePathInterLayerHeterogeneity;
-            updateDatable();
-        }
 
         private void tsmiProjectDataInput_Click(object sender, EventArgs e)
         {
@@ -1403,41 +1250,7 @@ namespace DOGPlatform
             viewProjectDataOpen(); 
         }
 
-        private void tsmiVoronoiAna_Click(object sender, EventArgs e)
-        {
-            FormVoronoiAna _form = new FormVoronoiAna();
-            _form.Show();
-        }
-
-        private void tsmiWellReservoir_Click(object sender, EventArgs e)
-        {
-            FormCalReservor _form = new FormCalReservor();
-            _form.ShowDialog();
-            filepathTableData = cProjectManager.filePathReserver;
-            updateDatable();
-        }
-
-        private void tsmiCalconnect_Click(object sender, EventArgs e)
-        {
-            WaitWindow.Show(this.calWellConnectWorkerMethod);
-        }
-
-        private void 动态计算ToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            WaitWindow.Show(this.calDynamicWorkerMethod);
-        }
-
-        private void 计算ToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            WaitWindow.Show(this.calWellConnectWorkerMethod);
-        }
-
-        private void 调整ToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            FormSettingSplitFactor form = new FormSettingSplitFactor();
-            form.Show();
-        }
-
+    
         private void tsmiGeologyLayer_Click(object sender, EventArgs e)
         {
             FormMapLayer formLayerMap = new FormMapLayer();
@@ -1454,7 +1267,7 @@ namespace DOGPlatform
             updateTreeViewProjectGraph();
         }
 
-        private void 计算ToolStripMenuItem_Click_1(object sender, EventArgs e)
+        private void 计算ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             WaitWindow.Show(this.calStaticWorkerMethod);
         }

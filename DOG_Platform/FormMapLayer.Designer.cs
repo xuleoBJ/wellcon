@@ -113,81 +113,79 @@
             this.lbxLayer = new System.Windows.Forms.ListBox();
             this.btnGenerateLayerMap = new System.Windows.Forms.Button();
             this.tbgPropertySetting = new System.Windows.Forms.TabPage();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.cbxMapFrame = new System.Windows.Forms.CheckBox();
-            this.cbxCompassShowed = new System.Windows.Forms.CheckBox();
-            this.cbxGrid = new System.Windows.Forms.CheckBox();
-            this.cbxScaleRulerShowed = new System.Windows.Forms.CheckBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
-            this.label67 = new System.Windows.Forms.Label();
-            this.label35 = new System.Windows.Forms.Label();
-            this.nUDPageWidth = new System.Windows.Forms.NumericUpDown();
-            this.button26 = new System.Windows.Forms.Button();
-            this.nUDPageHeight = new System.Windows.Forms.NumericUpDown();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.cbbScale = new System.Windows.Forms.ComboBox();
-            this.cbbUnit = new System.Windows.Forms.ComboBox();
-            this.nUDrefX = new System.Windows.Forms.NumericUpDown();
-            this.nUDrefY = new System.Windows.Forms.NumericUpDown();
-            this.label8 = new System.Windows.Forms.Label();
             this.tbxTitle = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.nUDrefY = new System.Windows.Forms.NumericUpDown();
+            this.nUDrefX = new System.Windows.Forms.NumericUpDown();
+            this.cbbUnit = new System.Windows.Forms.ComboBox();
+            this.cbbScale = new System.Windows.Forms.ComboBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.nUDPageHeight = new System.Windows.Forms.NumericUpDown();
+            this.button26 = new System.Windows.Forms.Button();
+            this.nUDPageWidth = new System.Windows.Forms.NumericUpDown();
+            this.label35 = new System.Windows.Forms.Label();
+            this.label67 = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.cbxScaleRulerShowed = new System.Windows.Forms.CheckBox();
+            this.cbxGrid = new System.Windows.Forms.CheckBox();
+            this.cbxCompassShowed = new System.Windows.Forms.CheckBox();
+            this.cbxMapFrame = new System.Windows.Forms.CheckBox();
             this.tbgDataOuter = new System.Windows.Forms.TabPage();
-            this.groupBox10 = new System.Windows.Forms.GroupBox();
-            this.tbxDataLayerID = new System.Windows.Forms.TextBox();
-            this.label41 = new System.Windows.Forms.Label();
-            this.label43 = new System.Windows.Forms.Label();
-            this.rdbOuterDataLayerRect = new System.Windows.Forms.RadioButton();
-            this.nUDLayerOpcity = new System.Windows.Forms.NumericUpDown();
-            this.rdbOuterDataLayerPie = new System.Windows.Forms.RadioButton();
-            this.dgvOuterDataLayerWellValues = new System.Windows.Forms.DataGridView();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnAddWellValueLayer = new System.Windows.Forms.Button();
-            this.groupBox28 = new System.Windows.Forms.GroupBox();
-            this.tbxOuterDataLayerPiefR = new System.Windows.Forms.TextBox();
-            this.label62 = new System.Windows.Forms.Label();
-            this.groupBox29 = new System.Windows.Forms.GroupBox();
-            this.tbxOutLayerfVscale = new System.Windows.Forms.TextBox();
-            this.label65 = new System.Windows.Forms.Label();
-            this.label64 = new System.Windows.Forms.Label();
-            this.nUDOuterDataLayerRectWidth = new System.Windows.Forms.NumericUpDown();
-            this.btnOuterDataLayerCopyFromExcel = new System.Windows.Forms.Button();
-            this.label63 = new System.Windows.Forms.Label();
-            this.btnOuterDataLayerDelFromdgv = new System.Windows.Forms.Button();
-            this.numericUpDown12 = new System.Windows.Forms.NumericUpDown();
-            this.label61 = new System.Windows.Forms.Label();
-            this.numericUpDown11 = new System.Windows.Forms.NumericUpDown();
-            this.btnOuterDataLayerAddCol = new System.Windows.Forms.Button();
-            this.btnOuterDataLayerDelCol = new System.Windows.Forms.Button();
             this.btnCellColor = new System.Windows.Forms.Button();
+            this.btnOuterDataLayerDelCol = new System.Windows.Forms.Button();
+            this.btnOuterDataLayerAddCol = new System.Windows.Forms.Button();
+            this.numericUpDown11 = new System.Windows.Forms.NumericUpDown();
+            this.label61 = new System.Windows.Forms.Label();
+            this.numericUpDown12 = new System.Windows.Forms.NumericUpDown();
+            this.btnOuterDataLayerDelFromdgv = new System.Windows.Forms.Button();
+            this.label63 = new System.Windows.Forms.Label();
+            this.btnOuterDataLayerCopyFromExcel = new System.Windows.Forms.Button();
+            this.groupBox29 = new System.Windows.Forms.GroupBox();
+            this.nUDOuterDataLayerRectWidth = new System.Windows.Forms.NumericUpDown();
+            this.label64 = new System.Windows.Forms.Label();
+            this.label65 = new System.Windows.Forms.Label();
+            this.tbxOutLayerfVscale = new System.Windows.Forms.TextBox();
+            this.groupBox28 = new System.Windows.Forms.GroupBox();
+            this.label62 = new System.Windows.Forms.Label();
+            this.tbxOuterDataLayerPiefR = new System.Windows.Forms.TextBox();
+            this.btnAddWellValueLayer = new System.Windows.Forms.Button();
+            this.dgvOuterDataLayerWellValues = new System.Windows.Forms.DataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.groupBox10 = new System.Windows.Forms.GroupBox();
+            this.rdbOuterDataLayerPie = new System.Windows.Forms.RadioButton();
+            this.nUDLayerOpcity = new System.Windows.Forms.NumericUpDown();
+            this.rdbOuterDataLayerRect = new System.Windows.Forms.RadioButton();
+            this.label43 = new System.Windows.Forms.Label();
+            this.label41 = new System.Windows.Forms.Label();
+            this.tbxDataLayerID = new System.Windows.Forms.TextBox();
             this.tbgGeoWellPosition = new System.Windows.Forms.TabPage();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.groupBox8 = new System.Windows.Forms.GroupBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.btnWellNameFont = new System.Windows.Forms.Button();
-            this.label26 = new System.Windows.Forms.Label();
-            this.nUDWellCircle_R = new System.Windows.Forms.NumericUpDown();
-            this.nUDJHtext_DX = new System.Windows.Forms.NumericUpDown();
-            this.label32 = new System.Windows.Forms.Label();
-            this.lbl_JMFont = new System.Windows.Forms.Label();
-            this.nUDJHFontSize = new System.Windows.Forms.NumericUpDown();
-            this.label53 = new System.Windows.Forms.Label();
-            this.nUDCirleLineWidth = new System.Windows.Forms.NumericUpDown();
-            this.cbbSelectedXCM = new System.Windows.Forms.ComboBox();
-            this.groupBox24 = new System.Windows.Forms.GroupBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.cbxAddFaultLine = new System.Windows.Forms.CheckBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.cbbCorlorFaultLine = new System.Windows.Forms.ComboBox();
-            this.nUDFaultLineWidth = new System.Windows.Forms.NumericUpDown();
-            this.label1 = new System.Windows.Forms.Label();
             this.btnAddBaseLayer = new System.Windows.Forms.Button();
-            this.cbbSelectedYM = new System.Windows.Forms.ComboBox();
-            this.label50 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.groupBox24 = new System.Windows.Forms.GroupBox();
+            this.nUDFaultLineWidth = new System.Windows.Forms.NumericUpDown();
+            this.cbbCorlorFaultLine = new System.Windows.Forms.ComboBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.cbxAddFaultLine = new System.Windows.Forms.CheckBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.cbbSelectedXCM = new System.Windows.Forms.ComboBox();
+            this.groupBox8 = new System.Windows.Forms.GroupBox();
+            this.nUDCirleLineWidth = new System.Windows.Forms.NumericUpDown();
+            this.label53 = new System.Windows.Forms.Label();
+            this.nUDJHFontSize = new System.Windows.Forms.NumericUpDown();
+            this.lbl_JMFont = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.nUDJHtext_DX = new System.Windows.Forms.NumericUpDown();
+            this.nUDWellCircle_R = new System.Windows.Forms.NumericUpDown();
+            this.label26 = new System.Windows.Forms.Label();
+            this.btnWellNameFont = new System.Windows.Forms.Button();
+            this.label12 = new System.Windows.Forms.Label();
             this.tbcLayerMap = new System.Windows.Forms.TabControl();
             this.tabPage1.SuspendLayout();
             this.groupBox12.SuspendLayout();
@@ -208,30 +206,30 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).BeginInit();
             this.tbgPropertySetting.SuspendLayout();
-            this.groupBox1.SuspendLayout();
             this.groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nUDPageWidth)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nUDPageHeight)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nUDrefX)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nUDrefY)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nUDrefX)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nUDPageHeight)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nUDPageWidth)).BeginInit();
+            this.groupBox1.SuspendLayout();
             this.tbgDataOuter.SuspendLayout();
-            this.groupBox10.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nUDLayerOpcity)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvOuterDataLayerWellValues)).BeginInit();
-            this.groupBox28.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown12)).BeginInit();
             this.groupBox29.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nUDOuterDataLayerRectWidth)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown11)).BeginInit();
+            this.groupBox28.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvOuterDataLayerWellValues)).BeginInit();
+            this.groupBox10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nUDLayerOpcity)).BeginInit();
             this.tbgGeoWellPosition.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            this.groupBox8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nUDWellCircle_R)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nUDJHtext_DX)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nUDJHFontSize)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nUDCirleLineWidth)).BeginInit();
             this.groupBox24.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nUDFaultLineWidth)).BeginInit();
+            this.groupBox8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nUDCirleLineWidth)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nUDJHFontSize)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nUDJHtext_DX)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nUDWellCircle_R)).BeginInit();
             this.tbcLayerMap.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -1155,75 +1153,21 @@
             this.tbgPropertySetting.Text = "图形配置";
             this.tbgPropertySetting.UseVisualStyleBackColor = true;
             // 
-            // groupBox1
+            // tbxTitle
             // 
-            this.groupBox1.Controls.Add(this.checkBox1);
-            this.groupBox1.Controls.Add(this.cbxScaleRulerShowed);
-            this.groupBox1.Controls.Add(this.cbxGrid);
-            this.groupBox1.Controls.Add(this.cbxCompassShowed);
-            this.groupBox1.Controls.Add(this.cbxMapFrame);
-            this.groupBox1.Location = new System.Drawing.Point(11, 224);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(279, 117);
-            this.groupBox1.TabIndex = 31;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "平面图信息";
+            this.tbxTitle.Location = new System.Drawing.Point(66, 32);
+            this.tbxTitle.Name = "tbxTitle";
+            this.tbxTitle.Size = new System.Drawing.Size(257, 21);
+            this.tbxTitle.TabIndex = 60;
             // 
-            // cbxMapFrame
+            // label8
             // 
-            this.cbxMapFrame.AutoSize = true;
-            this.cbxMapFrame.Checked = true;
-            this.cbxMapFrame.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.cbxMapFrame.Location = new System.Drawing.Point(19, 71);
-            this.cbxMapFrame.Name = "cbxMapFrame";
-            this.cbxMapFrame.Size = new System.Drawing.Size(72, 16);
-            this.cbxMapFrame.TabIndex = 2;
-            this.cbxMapFrame.Text = "绘制图框";
-            this.cbxMapFrame.UseVisualStyleBackColor = true;
-            // 
-            // cbxCompassShowed
-            // 
-            this.cbxCompassShowed.AutoSize = true;
-            this.cbxCompassShowed.Location = new System.Drawing.Point(110, 35);
-            this.cbxCompassShowed.Name = "cbxCompassShowed";
-            this.cbxCompassShowed.Size = new System.Drawing.Size(60, 16);
-            this.cbxCompassShowed.TabIndex = 2;
-            this.cbxCompassShowed.Text = "指南针";
-            this.cbxCompassShowed.UseVisualStyleBackColor = true;
-            // 
-            // cbxGrid
-            // 
-            this.cbxGrid.AutoSize = true;
-            this.cbxGrid.Checked = true;
-            this.cbxGrid.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.cbxGrid.Location = new System.Drawing.Point(112, 71);
-            this.cbxGrid.Name = "cbxGrid";
-            this.cbxGrid.Size = new System.Drawing.Size(72, 16);
-            this.cbxGrid.TabIndex = 4;
-            this.cbxGrid.Text = "绘制网格";
-            this.cbxGrid.UseVisualStyleBackColor = true;
-            // 
-            // cbxScaleRulerShowed
-            // 
-            this.cbxScaleRulerShowed.AutoSize = true;
-            this.cbxScaleRulerShowed.Checked = true;
-            this.cbxScaleRulerShowed.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.cbxScaleRulerShowed.Location = new System.Drawing.Point(19, 36);
-            this.cbxScaleRulerShowed.Name = "cbxScaleRulerShowed";
-            this.cbxScaleRulerShowed.Size = new System.Drawing.Size(60, 16);
-            this.cbxScaleRulerShowed.TabIndex = 2;
-            this.cbxScaleRulerShowed.Text = "比例尺";
-            this.cbxScaleRulerShowed.UseVisualStyleBackColor = true;
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(193, 34);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(72, 16);
-            this.checkBox1.TabIndex = 23;
-            this.checkBox1.Text = "绘制图例";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(11, 36);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(41, 12);
+            this.label8.TabIndex = 61;
+            this.label8.Text = "文件名";
             // 
             // groupBox3
             // 
@@ -1249,78 +1193,87 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "页面大小设置";
             // 
-            // label4
+            // nUDrefY
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(133, 26);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(41, 12);
-            this.label4.TabIndex = 27;
-            this.label4.Text = "页面高";
-            // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(209, 56);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(65, 12);
-            this.label36.TabIndex = 8;
-            this.label36.Text = "上方基准点";
-            // 
-            // label67
-            // 
-            this.label67.AutoSize = true;
-            this.label67.Location = new System.Drawing.Point(19, 26);
-            this.label67.Name = "label67";
-            this.label67.Size = new System.Drawing.Size(41, 12);
-            this.label67.TabIndex = 37;
-            this.label67.Text = "页面宽";
-            // 
-            // label35
-            // 
-            this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(16, 56);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(65, 12);
-            this.label35.TabIndex = 8;
-            this.label35.Text = "左侧基准点";
-            // 
-            // nUDPageWidth
-            // 
-            this.nUDPageWidth.AllowDrop = true;
-            this.nUDPageWidth.Increment = new decimal(new int[] {
-            50,
+            this.nUDrefY.AllowDrop = true;
+            this.nUDrefY.Increment = new decimal(new int[] {
+            500,
             0,
             0,
             0});
-            this.nUDPageWidth.Location = new System.Drawing.Point(66, 22);
-            this.nUDPageWidth.Maximum = new decimal(new int[] {
-            20000,
+            this.nUDrefY.Location = new System.Drawing.Point(292, 54);
+            this.nUDrefY.Maximum = new decimal(new int[] {
+            9000000,
             0,
             0,
             0});
-            this.nUDPageWidth.Minimum = new decimal(new int[] {
-            200,
-            0,
-            0,
-            0});
-            this.nUDPageWidth.Name = "nUDPageWidth";
-            this.nUDPageWidth.Size = new System.Drawing.Size(50, 21);
-            this.nUDPageWidth.TabIndex = 38;
-            this.nUDPageWidth.Value = new decimal(new int[] {
-            2000,
+            this.nUDrefY.Name = "nUDrefY";
+            this.nUDrefY.Size = new System.Drawing.Size(102, 21);
+            this.nUDrefY.TabIndex = 43;
+            this.nUDrefY.Value = new decimal(new int[] {
+            1000000,
             0,
             0,
             0});
             // 
-            // button26
+            // nUDrefX
             // 
-            this.button26.Location = new System.Drawing.Point(199, 85);
-            this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(75, 23);
-            this.button26.TabIndex = 26;
-            this.button26.Text = "坐标字体";
-            this.button26.UseVisualStyleBackColor = true;
+            this.nUDrefX.AllowDrop = true;
+            this.nUDrefX.Increment = new decimal(new int[] {
+            500,
+            0,
+            0,
+            0});
+            this.nUDrefX.Location = new System.Drawing.Point(92, 54);
+            this.nUDrefX.Maximum = new decimal(new int[] {
+            90000000,
+            0,
+            0,
+            0});
+            this.nUDrefX.Name = "nUDrefX";
+            this.nUDrefX.Size = new System.Drawing.Size(102, 21);
+            this.nUDrefX.TabIndex = 42;
+            this.nUDrefX.Value = new decimal(new int[] {
+            10000000,
+            0,
+            0,
+            0});
+            // 
+            // cbbUnit
+            // 
+            this.cbbUnit.FormattingEnabled = true;
+            this.cbbUnit.Location = new System.Drawing.Point(307, 22);
+            this.cbbUnit.Name = "cbbUnit";
+            this.cbbUnit.Size = new System.Drawing.Size(75, 20);
+            this.cbbUnit.TabIndex = 40;
+            // 
+            // cbbScale
+            // 
+            this.cbbScale.BackColor = System.Drawing.Color.White;
+            this.cbbScale.FormattingEnabled = true;
+            this.cbbScale.Location = new System.Drawing.Point(92, 87);
+            this.cbbScale.Name = "cbbScale";
+            this.cbbScale.Size = new System.Drawing.Size(72, 20);
+            this.cbbScale.TabIndex = 18;
+            this.cbbScale.Text = "1:10";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(248, 27);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(53, 12);
+            this.label3.TabIndex = 41;
+            this.label3.Text = "图幅单位";
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Location = new System.Drawing.Point(32, 95);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(53, 12);
+            this.label33.TabIndex = 19;
+            this.label33.Text = "比例尺1:";
             // 
             // nUDPageHeight
             // 
@@ -1350,103 +1303,148 @@
             0,
             0});
             // 
-            // label33
+            // button26
             // 
-            this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(32, 95);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(53, 12);
-            this.label33.TabIndex = 19;
-            this.label33.Text = "比例尺1:";
+            this.button26.Location = new System.Drawing.Point(199, 85);
+            this.button26.Name = "button26";
+            this.button26.Size = new System.Drawing.Size(75, 23);
+            this.button26.TabIndex = 26;
+            this.button26.Text = "坐标字体";
+            this.button26.UseVisualStyleBackColor = true;
             // 
-            // label3
+            // nUDPageWidth
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(248, 27);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(53, 12);
-            this.label3.TabIndex = 41;
-            this.label3.Text = "图幅单位";
-            // 
-            // cbbScale
-            // 
-            this.cbbScale.BackColor = System.Drawing.Color.White;
-            this.cbbScale.FormattingEnabled = true;
-            this.cbbScale.Location = new System.Drawing.Point(92, 87);
-            this.cbbScale.Name = "cbbScale";
-            this.cbbScale.Size = new System.Drawing.Size(72, 20);
-            this.cbbScale.TabIndex = 18;
-            this.cbbScale.Text = "1:10";
-            // 
-            // cbbUnit
-            // 
-            this.cbbUnit.FormattingEnabled = true;
-            this.cbbUnit.Location = new System.Drawing.Point(307, 22);
-            this.cbbUnit.Name = "cbbUnit";
-            this.cbbUnit.Size = new System.Drawing.Size(75, 20);
-            this.cbbUnit.TabIndex = 40;
-            // 
-            // nUDrefX
-            // 
-            this.nUDrefX.AllowDrop = true;
-            this.nUDrefX.Increment = new decimal(new int[] {
-            500,
+            this.nUDPageWidth.AllowDrop = true;
+            this.nUDPageWidth.Increment = new decimal(new int[] {
+            50,
             0,
             0,
             0});
-            this.nUDrefX.Location = new System.Drawing.Point(92, 54);
-            this.nUDrefX.Maximum = new decimal(new int[] {
-            90000000,
+            this.nUDPageWidth.Location = new System.Drawing.Point(66, 22);
+            this.nUDPageWidth.Maximum = new decimal(new int[] {
+            20000,
             0,
             0,
             0});
-            this.nUDrefX.Name = "nUDrefX";
-            this.nUDrefX.Size = new System.Drawing.Size(102, 21);
-            this.nUDrefX.TabIndex = 42;
-            this.nUDrefX.Value = new decimal(new int[] {
-            10000000,
+            this.nUDPageWidth.Minimum = new decimal(new int[] {
+            200,
+            0,
+            0,
+            0});
+            this.nUDPageWidth.Name = "nUDPageWidth";
+            this.nUDPageWidth.Size = new System.Drawing.Size(50, 21);
+            this.nUDPageWidth.TabIndex = 38;
+            this.nUDPageWidth.Value = new decimal(new int[] {
+            2000,
             0,
             0,
             0});
             // 
-            // nUDrefY
+            // label35
             // 
-            this.nUDrefY.AllowDrop = true;
-            this.nUDrefY.Increment = new decimal(new int[] {
-            500,
-            0,
-            0,
-            0});
-            this.nUDrefY.Location = new System.Drawing.Point(292, 54);
-            this.nUDrefY.Maximum = new decimal(new int[] {
-            9000000,
-            0,
-            0,
-            0});
-            this.nUDrefY.Name = "nUDrefY";
-            this.nUDrefY.Size = new System.Drawing.Size(102, 21);
-            this.nUDrefY.TabIndex = 43;
-            this.nUDrefY.Value = new decimal(new int[] {
-            1000000,
-            0,
-            0,
-            0});
+            this.label35.AutoSize = true;
+            this.label35.Location = new System.Drawing.Point(16, 56);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(65, 12);
+            this.label35.TabIndex = 8;
+            this.label35.Text = "左侧基准点";
             // 
-            // label8
+            // label67
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(11, 36);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(41, 12);
-            this.label8.TabIndex = 61;
-            this.label8.Text = "文件名";
+            this.label67.AutoSize = true;
+            this.label67.Location = new System.Drawing.Point(19, 26);
+            this.label67.Name = "label67";
+            this.label67.Size = new System.Drawing.Size(41, 12);
+            this.label67.TabIndex = 37;
+            this.label67.Text = "页面宽";
             // 
-            // tbxTitle
+            // label36
             // 
-            this.tbxTitle.Location = new System.Drawing.Point(66, 32);
-            this.tbxTitle.Name = "tbxTitle";
-            this.tbxTitle.Size = new System.Drawing.Size(257, 21);
-            this.tbxTitle.TabIndex = 60;
+            this.label36.AutoSize = true;
+            this.label36.Location = new System.Drawing.Point(209, 56);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(65, 12);
+            this.label36.TabIndex = 8;
+            this.label36.Text = "上方基准点";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(133, 26);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(41, 12);
+            this.label4.TabIndex = 27;
+            this.label4.Text = "页面高";
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.checkBox1);
+            this.groupBox1.Controls.Add(this.cbxScaleRulerShowed);
+            this.groupBox1.Controls.Add(this.cbxGrid);
+            this.groupBox1.Controls.Add(this.cbxCompassShowed);
+            this.groupBox1.Controls.Add(this.cbxMapFrame);
+            this.groupBox1.Location = new System.Drawing.Point(11, 224);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(279, 117);
+            this.groupBox1.TabIndex = 31;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "平面图信息";
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(193, 34);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(72, 16);
+            this.checkBox1.TabIndex = 23;
+            this.checkBox1.Text = "绘制图例";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // cbxScaleRulerShowed
+            // 
+            this.cbxScaleRulerShowed.AutoSize = true;
+            this.cbxScaleRulerShowed.Checked = true;
+            this.cbxScaleRulerShowed.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.cbxScaleRulerShowed.Location = new System.Drawing.Point(19, 36);
+            this.cbxScaleRulerShowed.Name = "cbxScaleRulerShowed";
+            this.cbxScaleRulerShowed.Size = new System.Drawing.Size(60, 16);
+            this.cbxScaleRulerShowed.TabIndex = 2;
+            this.cbxScaleRulerShowed.Text = "比例尺";
+            this.cbxScaleRulerShowed.UseVisualStyleBackColor = true;
+            // 
+            // cbxGrid
+            // 
+            this.cbxGrid.AutoSize = true;
+            this.cbxGrid.Checked = true;
+            this.cbxGrid.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.cbxGrid.Location = new System.Drawing.Point(112, 71);
+            this.cbxGrid.Name = "cbxGrid";
+            this.cbxGrid.Size = new System.Drawing.Size(72, 16);
+            this.cbxGrid.TabIndex = 4;
+            this.cbxGrid.Text = "绘制网格";
+            this.cbxGrid.UseVisualStyleBackColor = true;
+            // 
+            // cbxCompassShowed
+            // 
+            this.cbxCompassShowed.AutoSize = true;
+            this.cbxCompassShowed.Location = new System.Drawing.Point(110, 35);
+            this.cbxCompassShowed.Name = "cbxCompassShowed";
+            this.cbxCompassShowed.Size = new System.Drawing.Size(60, 16);
+            this.cbxCompassShowed.TabIndex = 2;
+            this.cbxCompassShowed.Text = "指南针";
+            this.cbxCompassShowed.UseVisualStyleBackColor = true;
+            // 
+            // cbxMapFrame
+            // 
+            this.cbxMapFrame.AutoSize = true;
+            this.cbxMapFrame.Checked = true;
+            this.cbxMapFrame.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.cbxMapFrame.Location = new System.Drawing.Point(19, 71);
+            this.cbxMapFrame.Name = "cbxMapFrame";
+            this.cbxMapFrame.Size = new System.Drawing.Size(72, 16);
+            this.cbxMapFrame.TabIndex = 2;
+            this.cbxMapFrame.Text = "绘制图框";
+            this.cbxMapFrame.UseVisualStyleBackColor = true;
             // 
             // tbgDataOuter
             // 
@@ -1472,6 +1470,234 @@
             this.tbgDataOuter.Text = "井点数据分析";
             this.tbgDataOuter.UseVisualStyleBackColor = true;
             // 
+            // btnCellColor
+            // 
+            this.btnCellColor.Location = new System.Drawing.Point(348, 210);
+            this.btnCellColor.Name = "btnCellColor";
+            this.btnCellColor.Size = new System.Drawing.Size(79, 23);
+            this.btnCellColor.TabIndex = 82;
+            this.btnCellColor.Text = "值颜色";
+            this.btnCellColor.UseVisualStyleBackColor = true;
+            this.btnCellColor.Click += new System.EventHandler(this.btnCellColor_Click);
+            // 
+            // btnOuterDataLayerDelCol
+            // 
+            this.btnOuterDataLayerDelCol.Location = new System.Drawing.Point(178, 210);
+            this.btnOuterDataLayerDelCol.Name = "btnOuterDataLayerDelCol";
+            this.btnOuterDataLayerDelCol.Size = new System.Drawing.Size(79, 23);
+            this.btnOuterDataLayerDelCol.TabIndex = 79;
+            this.btnOuterDataLayerDelCol.Text = "删除列";
+            this.btnOuterDataLayerDelCol.UseVisualStyleBackColor = true;
+            this.btnOuterDataLayerDelCol.Click += new System.EventHandler(this.btnOuterDataLayerDelCol_Click);
+            // 
+            // btnOuterDataLayerAddCol
+            // 
+            this.btnOuterDataLayerAddCol.Location = new System.Drawing.Point(91, 210);
+            this.btnOuterDataLayerAddCol.Name = "btnOuterDataLayerAddCol";
+            this.btnOuterDataLayerAddCol.Size = new System.Drawing.Size(79, 23);
+            this.btnOuterDataLayerAddCol.TabIndex = 78;
+            this.btnOuterDataLayerAddCol.Text = "添加列";
+            this.btnOuterDataLayerAddCol.UseVisualStyleBackColor = true;
+            this.btnOuterDataLayerAddCol.Click += new System.EventHandler(this.btnOuterDataLayerAddCol_Click);
+            // 
+            // numericUpDown11
+            // 
+            this.numericUpDown11.Increment = new decimal(new int[] {
+            5,
+            0,
+            0,
+            65536});
+            this.numericUpDown11.Location = new System.Drawing.Point(503, 117);
+            this.numericUpDown11.Name = "numericUpDown11";
+            this.numericUpDown11.Size = new System.Drawing.Size(37, 21);
+            this.numericUpDown11.TabIndex = 74;
+            this.numericUpDown11.Value = new decimal(new int[] {
+            10,
+            0,
+            0,
+            0});
+            // 
+            // label61
+            // 
+            this.label61.AutoSize = true;
+            this.label61.Location = new System.Drawing.Point(470, 121);
+            this.label61.Name = "label61";
+            this.label61.Size = new System.Drawing.Size(29, 12);
+            this.label61.TabIndex = 73;
+            this.label61.Text = "字号";
+            // 
+            // numericUpDown12
+            // 
+            this.numericUpDown12.Location = new System.Drawing.Point(503, 142);
+            this.numericUpDown12.Maximum = new decimal(new int[] {
+            20,
+            0,
+            0,
+            0});
+            this.numericUpDown12.Minimum = new decimal(new int[] {
+            20,
+            0,
+            0,
+            -2147483648});
+            this.numericUpDown12.Name = "numericUpDown12";
+            this.numericUpDown12.Size = new System.Drawing.Size(37, 21);
+            this.numericUpDown12.TabIndex = 72;
+            this.numericUpDown12.Value = new decimal(new int[] {
+            12,
+            0,
+            0,
+            0});
+            // 
+            // btnOuterDataLayerDelFromdgv
+            // 
+            this.btnOuterDataLayerDelFromdgv.Location = new System.Drawing.Point(263, 210);
+            this.btnOuterDataLayerDelFromdgv.Name = "btnOuterDataLayerDelFromdgv";
+            this.btnOuterDataLayerDelFromdgv.Size = new System.Drawing.Size(75, 23);
+            this.btnOuterDataLayerDelFromdgv.TabIndex = 75;
+            this.btnOuterDataLayerDelFromdgv.Text = "删除行";
+            this.btnOuterDataLayerDelFromdgv.UseVisualStyleBackColor = true;
+            this.btnOuterDataLayerDelFromdgv.Click += new System.EventHandler(this.btnDelFromdgv_Click);
+            // 
+            // label63
+            // 
+            this.label63.AutoSize = true;
+            this.label63.Location = new System.Drawing.Point(468, 141);
+            this.label63.Name = "label63";
+            this.label63.Size = new System.Drawing.Size(29, 12);
+            this.label63.TabIndex = 71;
+            this.label63.Text = "偏移";
+            // 
+            // btnOuterDataLayerCopyFromExcel
+            // 
+            this.btnOuterDataLayerCopyFromExcel.Location = new System.Drawing.Point(8, 210);
+            this.btnOuterDataLayerCopyFromExcel.Name = "btnOuterDataLayerCopyFromExcel";
+            this.btnOuterDataLayerCopyFromExcel.Size = new System.Drawing.Size(79, 23);
+            this.btnOuterDataLayerCopyFromExcel.TabIndex = 74;
+            this.btnOuterDataLayerCopyFromExcel.Text = "粘贴";
+            this.btnOuterDataLayerCopyFromExcel.UseVisualStyleBackColor = true;
+            this.btnOuterDataLayerCopyFromExcel.Click += new System.EventHandler(this.粘贴_Click);
+            // 
+            // groupBox29
+            // 
+            this.groupBox29.Controls.Add(this.nUDOuterDataLayerRectWidth);
+            this.groupBox29.Controls.Add(this.label64);
+            this.groupBox29.Controls.Add(this.label65);
+            this.groupBox29.Controls.Add(this.tbxOutLayerfVscale);
+            this.groupBox29.Location = new System.Drawing.Point(163, 111);
+            this.groupBox29.Name = "groupBox29";
+            this.groupBox29.Size = new System.Drawing.Size(275, 74);
+            this.groupBox29.TabIndex = 73;
+            this.groupBox29.TabStop = false;
+            this.groupBox29.Text = "设置柱状图";
+            // 
+            // nUDOuterDataLayerRectWidth
+            // 
+            this.nUDOuterDataLayerRectWidth.Location = new System.Drawing.Point(178, 26);
+            this.nUDOuterDataLayerRectWidth.Maximum = new decimal(new int[] {
+            20,
+            0,
+            0,
+            0});
+            this.nUDOuterDataLayerRectWidth.Minimum = new decimal(new int[] {
+            20,
+            0,
+            0,
+            -2147483648});
+            this.nUDOuterDataLayerRectWidth.Name = "nUDOuterDataLayerRectWidth";
+            this.nUDOuterDataLayerRectWidth.Size = new System.Drawing.Size(37, 21);
+            this.nUDOuterDataLayerRectWidth.TabIndex = 76;
+            this.nUDOuterDataLayerRectWidth.Value = new decimal(new int[] {
+            3,
+            0,
+            0,
+            0});
+            // 
+            // label64
+            // 
+            this.label64.AutoSize = true;
+            this.label64.Location = new System.Drawing.Point(134, 29);
+            this.label64.Name = "label64";
+            this.label64.Size = new System.Drawing.Size(35, 12);
+            this.label64.TabIndex = 75;
+            this.label64.Text = "柱宽=";
+            // 
+            // label65
+            // 
+            this.label65.AutoSize = true;
+            this.label65.Location = new System.Drawing.Point(13, 29);
+            this.label65.Name = "label65";
+            this.label65.Size = new System.Drawing.Size(59, 12);
+            this.label65.TabIndex = 18;
+            this.label65.Text = "显示柱高x";
+            // 
+            // tbxOutLayerfVscale
+            // 
+            this.tbxOutLayerfVscale.Location = new System.Drawing.Point(78, 26);
+            this.tbxOutLayerfVscale.Name = "tbxOutLayerfVscale";
+            this.tbxOutLayerfVscale.Size = new System.Drawing.Size(39, 21);
+            this.tbxOutLayerfVscale.TabIndex = 18;
+            this.tbxOutLayerfVscale.Text = "1";
+            // 
+            // groupBox28
+            // 
+            this.groupBox28.Controls.Add(this.label62);
+            this.groupBox28.Controls.Add(this.tbxOuterDataLayerPiefR);
+            this.groupBox28.Location = new System.Drawing.Point(6, 105);
+            this.groupBox28.Name = "groupBox28";
+            this.groupBox28.Size = new System.Drawing.Size(130, 84);
+            this.groupBox28.TabIndex = 72;
+            this.groupBox28.TabStop = false;
+            this.groupBox28.Text = "设置饼状图";
+            // 
+            // label62
+            // 
+            this.label62.AutoSize = true;
+            this.label62.Location = new System.Drawing.Point(19, 36);
+            this.label62.Name = "label62";
+            this.label62.Size = new System.Drawing.Size(35, 12);
+            this.label62.TabIndex = 18;
+            this.label62.Text = "R=R x";
+            // 
+            // tbxOuterDataLayerPiefR
+            // 
+            this.tbxOuterDataLayerPiefR.Location = new System.Drawing.Point(57, 34);
+            this.tbxOuterDataLayerPiefR.Name = "tbxOuterDataLayerPiefR";
+            this.tbxOuterDataLayerPiefR.Size = new System.Drawing.Size(37, 21);
+            this.tbxOuterDataLayerPiefR.TabIndex = 18;
+            this.tbxOuterDataLayerPiefR.Text = "1";
+            // 
+            // btnAddWellValueLayer
+            // 
+            this.btnAddWellValueLayer.Location = new System.Drawing.Point(537, 194);
+            this.btnAddWellValueLayer.Name = "btnAddWellValueLayer";
+            this.btnAddWellValueLayer.Size = new System.Drawing.Size(78, 43);
+            this.btnAddWellValueLayer.TabIndex = 71;
+            this.btnAddWellValueLayer.Text = "增加图层";
+            this.btnAddWellValueLayer.UseVisualStyleBackColor = true;
+            this.btnAddWellValueLayer.Click += new System.EventHandler(this.btnAddWellValueLayer_Click);
+            // 
+            // dgvOuterDataLayerWellValues
+            // 
+            this.dgvOuterDataLayerWellValues.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvOuterDataLayerWellValues.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column1,
+            this.Column2});
+            this.dgvOuterDataLayerWellValues.Location = new System.Drawing.Point(7, 254);
+            this.dgvOuterDataLayerWellValues.Name = "dgvOuterDataLayerWellValues";
+            this.dgvOuterDataLayerWellValues.RowTemplate.Height = 23;
+            this.dgvOuterDataLayerWellValues.Size = new System.Drawing.Size(618, 200);
+            this.dgvOuterDataLayerWellValues.TabIndex = 68;
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "井号";
+            this.Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "数值";
+            this.Column2.Name = "Column2";
+            // 
             // groupBox10
             // 
             this.groupBox10.Controls.Add(this.rdbOuterDataLayerPie);
@@ -1487,42 +1713,15 @@
             this.groupBox10.TabStop = false;
             this.groupBox10.Text = "图表类型";
             // 
-            // tbxDataLayerID
+            // rdbOuterDataLayerPie
             // 
-            this.tbxDataLayerID.Location = new System.Drawing.Point(256, 22);
-            this.tbxDataLayerID.Name = "tbxDataLayerID";
-            this.tbxDataLayerID.Size = new System.Drawing.Size(129, 21);
-            this.tbxDataLayerID.TabIndex = 69;
-            // 
-            // label41
-            // 
-            this.label41.AutoSize = true;
-            this.label41.Location = new System.Drawing.Point(208, 27);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(41, 12);
-            this.label41.TabIndex = 70;
-            this.label41.Text = "图层名";
-            // 
-            // label43
-            // 
-            this.label43.AutoSize = true;
-            this.label43.Location = new System.Drawing.Point(401, 27);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(65, 12);
-            this.label43.TabIndex = 80;
-            this.label43.Text = "颜色透明度";
-            // 
-            // rdbOuterDataLayerRect
-            // 
-            this.rdbOuterDataLayerRect.AutoSize = true;
-            this.rdbOuterDataLayerRect.Checked = true;
-            this.rdbOuterDataLayerRect.Location = new System.Drawing.Point(23, 25);
-            this.rdbOuterDataLayerRect.Name = "rdbOuterDataLayerRect";
-            this.rdbOuterDataLayerRect.Size = new System.Drawing.Size(71, 16);
-            this.rdbOuterDataLayerRect.TabIndex = 0;
-            this.rdbOuterDataLayerRect.TabStop = true;
-            this.rdbOuterDataLayerRect.Text = "柱状显示";
-            this.rdbOuterDataLayerRect.UseVisualStyleBackColor = true;
+            this.rdbOuterDataLayerPie.AutoSize = true;
+            this.rdbOuterDataLayerPie.Location = new System.Drawing.Point(126, 25);
+            this.rdbOuterDataLayerPie.Name = "rdbOuterDataLayerPie";
+            this.rdbOuterDataLayerPie.Size = new System.Drawing.Size(71, 16);
+            this.rdbOuterDataLayerPie.TabIndex = 1;
+            this.rdbOuterDataLayerPie.Text = "饼状显示";
+            this.rdbOuterDataLayerPie.UseVisualStyleBackColor = true;
             // 
             // nUDLayerOpcity
             // 
@@ -1552,243 +1751,42 @@
             0,
             65536});
             // 
-            // rdbOuterDataLayerPie
+            // rdbOuterDataLayerRect
             // 
-            this.rdbOuterDataLayerPie.AutoSize = true;
-            this.rdbOuterDataLayerPie.Location = new System.Drawing.Point(126, 25);
-            this.rdbOuterDataLayerPie.Name = "rdbOuterDataLayerPie";
-            this.rdbOuterDataLayerPie.Size = new System.Drawing.Size(71, 16);
-            this.rdbOuterDataLayerPie.TabIndex = 1;
-            this.rdbOuterDataLayerPie.Text = "饼状显示";
-            this.rdbOuterDataLayerPie.UseVisualStyleBackColor = true;
+            this.rdbOuterDataLayerRect.AutoSize = true;
+            this.rdbOuterDataLayerRect.Checked = true;
+            this.rdbOuterDataLayerRect.Location = new System.Drawing.Point(23, 25);
+            this.rdbOuterDataLayerRect.Name = "rdbOuterDataLayerRect";
+            this.rdbOuterDataLayerRect.Size = new System.Drawing.Size(71, 16);
+            this.rdbOuterDataLayerRect.TabIndex = 0;
+            this.rdbOuterDataLayerRect.TabStop = true;
+            this.rdbOuterDataLayerRect.Text = "柱状显示";
+            this.rdbOuterDataLayerRect.UseVisualStyleBackColor = true;
             // 
-            // dgvOuterDataLayerWellValues
+            // label43
             // 
-            this.dgvOuterDataLayerWellValues.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvOuterDataLayerWellValues.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column2});
-            this.dgvOuterDataLayerWellValues.Location = new System.Drawing.Point(7, 254);
-            this.dgvOuterDataLayerWellValues.Name = "dgvOuterDataLayerWellValues";
-            this.dgvOuterDataLayerWellValues.RowTemplate.Height = 23;
-            this.dgvOuterDataLayerWellValues.Size = new System.Drawing.Size(618, 200);
-            this.dgvOuterDataLayerWellValues.TabIndex = 68;
+            this.label43.AutoSize = true;
+            this.label43.Location = new System.Drawing.Point(401, 27);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(65, 12);
+            this.label43.TabIndex = 80;
+            this.label43.Text = "颜色透明度";
             // 
-            // Column2
+            // label41
             // 
-            this.Column2.HeaderText = "数值";
-            this.Column2.Name = "Column2";
+            this.label41.AutoSize = true;
+            this.label41.Location = new System.Drawing.Point(208, 27);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(41, 12);
+            this.label41.TabIndex = 70;
+            this.label41.Text = "图层名";
             // 
-            // Column1
+            // tbxDataLayerID
             // 
-            this.Column1.HeaderText = "井号";
-            this.Column1.Name = "Column1";
-            // 
-            // btnAddWellValueLayer
-            // 
-            this.btnAddWellValueLayer.Location = new System.Drawing.Point(537, 194);
-            this.btnAddWellValueLayer.Name = "btnAddWellValueLayer";
-            this.btnAddWellValueLayer.Size = new System.Drawing.Size(78, 43);
-            this.btnAddWellValueLayer.TabIndex = 71;
-            this.btnAddWellValueLayer.Text = "增加图层";
-            this.btnAddWellValueLayer.UseVisualStyleBackColor = true;
-            this.btnAddWellValueLayer.Click += new System.EventHandler(this.btnAddWellValueLayer_Click);
-            // 
-            // groupBox28
-            // 
-            this.groupBox28.Controls.Add(this.label62);
-            this.groupBox28.Controls.Add(this.tbxOuterDataLayerPiefR);
-            this.groupBox28.Location = new System.Drawing.Point(6, 105);
-            this.groupBox28.Name = "groupBox28";
-            this.groupBox28.Size = new System.Drawing.Size(130, 84);
-            this.groupBox28.TabIndex = 72;
-            this.groupBox28.TabStop = false;
-            this.groupBox28.Text = "设置饼状图";
-            // 
-            // tbxOuterDataLayerPiefR
-            // 
-            this.tbxOuterDataLayerPiefR.Location = new System.Drawing.Point(57, 34);
-            this.tbxOuterDataLayerPiefR.Name = "tbxOuterDataLayerPiefR";
-            this.tbxOuterDataLayerPiefR.Size = new System.Drawing.Size(37, 21);
-            this.tbxOuterDataLayerPiefR.TabIndex = 18;
-            this.tbxOuterDataLayerPiefR.Text = "1";
-            // 
-            // label62
-            // 
-            this.label62.AutoSize = true;
-            this.label62.Location = new System.Drawing.Point(19, 36);
-            this.label62.Name = "label62";
-            this.label62.Size = new System.Drawing.Size(35, 12);
-            this.label62.TabIndex = 18;
-            this.label62.Text = "R=R x";
-            // 
-            // groupBox29
-            // 
-            this.groupBox29.Controls.Add(this.nUDOuterDataLayerRectWidth);
-            this.groupBox29.Controls.Add(this.label64);
-            this.groupBox29.Controls.Add(this.label65);
-            this.groupBox29.Controls.Add(this.tbxOutLayerfVscale);
-            this.groupBox29.Location = new System.Drawing.Point(163, 111);
-            this.groupBox29.Name = "groupBox29";
-            this.groupBox29.Size = new System.Drawing.Size(275, 74);
-            this.groupBox29.TabIndex = 73;
-            this.groupBox29.TabStop = false;
-            this.groupBox29.Text = "设置柱状图";
-            // 
-            // tbxOutLayerfVscale
-            // 
-            this.tbxOutLayerfVscale.Location = new System.Drawing.Point(78, 26);
-            this.tbxOutLayerfVscale.Name = "tbxOutLayerfVscale";
-            this.tbxOutLayerfVscale.Size = new System.Drawing.Size(39, 21);
-            this.tbxOutLayerfVscale.TabIndex = 18;
-            this.tbxOutLayerfVscale.Text = "1";
-            // 
-            // label65
-            // 
-            this.label65.AutoSize = true;
-            this.label65.Location = new System.Drawing.Point(13, 29);
-            this.label65.Name = "label65";
-            this.label65.Size = new System.Drawing.Size(59, 12);
-            this.label65.TabIndex = 18;
-            this.label65.Text = "显示柱高x";
-            // 
-            // label64
-            // 
-            this.label64.AutoSize = true;
-            this.label64.Location = new System.Drawing.Point(134, 29);
-            this.label64.Name = "label64";
-            this.label64.Size = new System.Drawing.Size(35, 12);
-            this.label64.TabIndex = 75;
-            this.label64.Text = "柱宽=";
-            // 
-            // nUDOuterDataLayerRectWidth
-            // 
-            this.nUDOuterDataLayerRectWidth.Location = new System.Drawing.Point(178, 26);
-            this.nUDOuterDataLayerRectWidth.Maximum = new decimal(new int[] {
-            20,
-            0,
-            0,
-            0});
-            this.nUDOuterDataLayerRectWidth.Minimum = new decimal(new int[] {
-            20,
-            0,
-            0,
-            -2147483648});
-            this.nUDOuterDataLayerRectWidth.Name = "nUDOuterDataLayerRectWidth";
-            this.nUDOuterDataLayerRectWidth.Size = new System.Drawing.Size(37, 21);
-            this.nUDOuterDataLayerRectWidth.TabIndex = 76;
-            this.nUDOuterDataLayerRectWidth.Value = new decimal(new int[] {
-            3,
-            0,
-            0,
-            0});
-            // 
-            // btnOuterDataLayerCopyFromExcel
-            // 
-            this.btnOuterDataLayerCopyFromExcel.Location = new System.Drawing.Point(8, 210);
-            this.btnOuterDataLayerCopyFromExcel.Name = "btnOuterDataLayerCopyFromExcel";
-            this.btnOuterDataLayerCopyFromExcel.Size = new System.Drawing.Size(79, 23);
-            this.btnOuterDataLayerCopyFromExcel.TabIndex = 74;
-            this.btnOuterDataLayerCopyFromExcel.Text = "粘贴";
-            this.btnOuterDataLayerCopyFromExcel.UseVisualStyleBackColor = true;
-            this.btnOuterDataLayerCopyFromExcel.Click += new System.EventHandler(this.粘贴_Click);
-            // 
-            // label63
-            // 
-            this.label63.AutoSize = true;
-            this.label63.Location = new System.Drawing.Point(468, 141);
-            this.label63.Name = "label63";
-            this.label63.Size = new System.Drawing.Size(29, 12);
-            this.label63.TabIndex = 71;
-            this.label63.Text = "偏移";
-            // 
-            // btnOuterDataLayerDelFromdgv
-            // 
-            this.btnOuterDataLayerDelFromdgv.Location = new System.Drawing.Point(263, 210);
-            this.btnOuterDataLayerDelFromdgv.Name = "btnOuterDataLayerDelFromdgv";
-            this.btnOuterDataLayerDelFromdgv.Size = new System.Drawing.Size(75, 23);
-            this.btnOuterDataLayerDelFromdgv.TabIndex = 75;
-            this.btnOuterDataLayerDelFromdgv.Text = "删除行";
-            this.btnOuterDataLayerDelFromdgv.UseVisualStyleBackColor = true;
-            this.btnOuterDataLayerDelFromdgv.Click += new System.EventHandler(this.btnDelFromdgv_Click);
-            // 
-            // numericUpDown12
-            // 
-            this.numericUpDown12.Location = new System.Drawing.Point(503, 142);
-            this.numericUpDown12.Maximum = new decimal(new int[] {
-            20,
-            0,
-            0,
-            0});
-            this.numericUpDown12.Minimum = new decimal(new int[] {
-            20,
-            0,
-            0,
-            -2147483648});
-            this.numericUpDown12.Name = "numericUpDown12";
-            this.numericUpDown12.Size = new System.Drawing.Size(37, 21);
-            this.numericUpDown12.TabIndex = 72;
-            this.numericUpDown12.Value = new decimal(new int[] {
-            12,
-            0,
-            0,
-            0});
-            // 
-            // label61
-            // 
-            this.label61.AutoSize = true;
-            this.label61.Location = new System.Drawing.Point(470, 121);
-            this.label61.Name = "label61";
-            this.label61.Size = new System.Drawing.Size(29, 12);
-            this.label61.TabIndex = 73;
-            this.label61.Text = "字号";
-            // 
-            // numericUpDown11
-            // 
-            this.numericUpDown11.Increment = new decimal(new int[] {
-            5,
-            0,
-            0,
-            65536});
-            this.numericUpDown11.Location = new System.Drawing.Point(503, 117);
-            this.numericUpDown11.Name = "numericUpDown11";
-            this.numericUpDown11.Size = new System.Drawing.Size(37, 21);
-            this.numericUpDown11.TabIndex = 74;
-            this.numericUpDown11.Value = new decimal(new int[] {
-            10,
-            0,
-            0,
-            0});
-            // 
-            // btnOuterDataLayerAddCol
-            // 
-            this.btnOuterDataLayerAddCol.Location = new System.Drawing.Point(91, 210);
-            this.btnOuterDataLayerAddCol.Name = "btnOuterDataLayerAddCol";
-            this.btnOuterDataLayerAddCol.Size = new System.Drawing.Size(79, 23);
-            this.btnOuterDataLayerAddCol.TabIndex = 78;
-            this.btnOuterDataLayerAddCol.Text = "添加列";
-            this.btnOuterDataLayerAddCol.UseVisualStyleBackColor = true;
-            this.btnOuterDataLayerAddCol.Click += new System.EventHandler(this.btnOuterDataLayerAddCol_Click);
-            // 
-            // btnOuterDataLayerDelCol
-            // 
-            this.btnOuterDataLayerDelCol.Location = new System.Drawing.Point(178, 210);
-            this.btnOuterDataLayerDelCol.Name = "btnOuterDataLayerDelCol";
-            this.btnOuterDataLayerDelCol.Size = new System.Drawing.Size(79, 23);
-            this.btnOuterDataLayerDelCol.TabIndex = 79;
-            this.btnOuterDataLayerDelCol.Text = "删除列";
-            this.btnOuterDataLayerDelCol.UseVisualStyleBackColor = true;
-            this.btnOuterDataLayerDelCol.Click += new System.EventHandler(this.btnOuterDataLayerDelCol_Click);
-            // 
-            // btnCellColor
-            // 
-            this.btnCellColor.Location = new System.Drawing.Point(348, 210);
-            this.btnCellColor.Name = "btnCellColor";
-            this.btnCellColor.Size = new System.Drawing.Size(79, 23);
-            this.btnCellColor.TabIndex = 82;
-            this.btnCellColor.Text = "值颜色";
-            this.btnCellColor.UseVisualStyleBackColor = true;
-            this.btnCellColor.Click += new System.EventHandler(this.btnCellColor_Click);
+            this.tbxDataLayerID.Location = new System.Drawing.Point(256, 22);
+            this.tbxDataLayerID.Name = "tbxDataLayerID";
+            this.tbxDataLayerID.Size = new System.Drawing.Size(129, 21);
+            this.tbxDataLayerID.TabIndex = 69;
             // 
             // tbgGeoWellPosition
             // 
@@ -1803,8 +1801,6 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.label50);
-            this.groupBox2.Controls.Add(this.cbbSelectedYM);
             this.groupBox2.Controls.Add(this.btnAddBaseLayer);
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Controls.Add(this.groupBox24);
@@ -1816,6 +1812,103 @@
             this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "小层平面图信息";
+            // 
+            // btnAddBaseLayer
+            // 
+            this.btnAddBaseLayer.Location = new System.Drawing.Point(234, 21);
+            this.btnAddBaseLayer.Margin = new System.Windows.Forms.Padding(2);
+            this.btnAddBaseLayer.Name = "btnAddBaseLayer";
+            this.btnAddBaseLayer.Size = new System.Drawing.Size(76, 24);
+            this.btnAddBaseLayer.TabIndex = 25;
+            this.btnAddBaseLayer.Text = "确定";
+            this.btnAddBaseLayer.UseVisualStyleBackColor = true;
+            this.btnAddBaseLayer.Click += new System.EventHandler(this.btnAddBaseLayer_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(13, 27);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(29, 12);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "层名";
+            // 
+            // groupBox24
+            // 
+            this.groupBox24.Controls.Add(this.nUDFaultLineWidth);
+            this.groupBox24.Controls.Add(this.cbbCorlorFaultLine);
+            this.groupBox24.Controls.Add(this.label11);
+            this.groupBox24.Controls.Add(this.cbxAddFaultLine);
+            this.groupBox24.Controls.Add(this.label9);
+            this.groupBox24.Location = new System.Drawing.Point(14, 270);
+            this.groupBox24.Name = "groupBox24";
+            this.groupBox24.Size = new System.Drawing.Size(258, 93);
+            this.groupBox24.TabIndex = 22;
+            this.groupBox24.TabStop = false;
+            this.groupBox24.Text = "断层线设置";
+            // 
+            // nUDFaultLineWidth
+            // 
+            this.nUDFaultLineWidth.Increment = new decimal(new int[] {
+            5,
+            0,
+            0,
+            65536});
+            this.nUDFaultLineWidth.Location = new System.Drawing.Point(161, 43);
+            this.nUDFaultLineWidth.Name = "nUDFaultLineWidth";
+            this.nUDFaultLineWidth.Size = new System.Drawing.Size(57, 21);
+            this.nUDFaultLineWidth.TabIndex = 17;
+            this.nUDFaultLineWidth.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            // 
+            // cbbCorlorFaultLine
+            // 
+            this.cbbCorlorFaultLine.BackColor = System.Drawing.Color.Red;
+            this.cbbCorlorFaultLine.FormattingEnabled = true;
+            this.cbbCorlorFaultLine.Location = new System.Drawing.Point(45, 44);
+            this.cbbCorlorFaultLine.Name = "cbbCorlorFaultLine";
+            this.cbbCorlorFaultLine.Size = new System.Drawing.Size(61, 20);
+            this.cbbCorlorFaultLine.TabIndex = 10;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(10, 47);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(29, 12);
+            this.label11.TabIndex = 12;
+            this.label11.Text = "颜色";
+            // 
+            // cbxAddFaultLine
+            // 
+            this.cbxAddFaultLine.AutoSize = true;
+            this.cbxAddFaultLine.Location = new System.Drawing.Point(11, 22);
+            this.cbxAddFaultLine.Name = "cbxAddFaultLine";
+            this.cbxAddFaultLine.Size = new System.Drawing.Size(84, 16);
+            this.cbxAddFaultLine.TabIndex = 21;
+            this.cbxAddFaultLine.Text = "层位断层线";
+            this.cbxAddFaultLine.UseVisualStyleBackColor = true;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(119, 47);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(29, 12);
+            this.label9.TabIndex = 12;
+            this.label9.Text = "线宽";
+            // 
+            // cbbSelectedXCM
+            // 
+            this.cbbSelectedXCM.FormattingEnabled = true;
+            this.cbbSelectedXCM.Location = new System.Drawing.Point(44, 24);
+            this.cbbSelectedXCM.Name = "cbbSelectedXCM";
+            this.cbbSelectedXCM.Size = new System.Drawing.Size(163, 20);
+            this.cbbSelectedXCM.TabIndex = 7;
+            this.cbbSelectedXCM.SelectedIndexChanged += new System.EventHandler(this.cbbSelectedXCM_SelectedIndexChanged);
             // 
             // groupBox8
             // 
@@ -1836,52 +1929,63 @@
             this.groupBox8.TabStop = false;
             this.groupBox8.Text = "底图显示设置";
             // 
-            // label12
+            // nUDCirleLineWidth
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(11, 70);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(65, 12);
-            this.label12.TabIndex = 12;
-            this.label12.Text = "井符号半径";
+            this.nUDCirleLineWidth.Location = new System.Drawing.Point(77, 102);
+            this.nUDCirleLineWidth.Name = "nUDCirleLineWidth";
+            this.nUDCirleLineWidth.Size = new System.Drawing.Size(37, 21);
+            this.nUDCirleLineWidth.TabIndex = 22;
+            this.nUDCirleLineWidth.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nUDCirleLineWidth.ValueChanged += new System.EventHandler(this.nUDCirleLineWidth_ValueChanged);
             // 
-            // btnWellNameFont
+            // label53
             // 
-            this.btnWellNameFont.Location = new System.Drawing.Point(44, 22);
-            this.btnWellNameFont.Margin = new System.Windows.Forms.Padding(2);
-            this.btnWellNameFont.Name = "btnWellNameFont";
-            this.btnWellNameFont.Size = new System.Drawing.Size(81, 22);
-            this.btnWellNameFont.TabIndex = 15;
-            this.btnWellNameFont.Text = "字体设置";
-            this.btnWellNameFont.UseVisualStyleBackColor = true;
-            this.btnWellNameFont.Click += new System.EventHandler(this.btnWellNameFont_Click);
+            this.label53.AutoSize = true;
+            this.label53.Location = new System.Drawing.Point(11, 107);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(53, 12);
+            this.label53.TabIndex = 21;
+            this.label53.Text = "井圈宽度";
             // 
-            // label26
+            // nUDJHFontSize
             // 
-            this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(135, 69);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(29, 12);
-            this.label26.TabIndex = 12;
-            this.label26.Text = "偏移";
-            // 
-            // nUDWellCircle_R
-            // 
-            this.nUDWellCircle_R.Increment = new decimal(new int[] {
+            this.nUDJHFontSize.Increment = new decimal(new int[] {
             5,
             0,
             0,
             65536});
-            this.nUDWellCircle_R.Location = new System.Drawing.Point(77, 65);
-            this.nUDWellCircle_R.Name = "nUDWellCircle_R";
-            this.nUDWellCircle_R.Size = new System.Drawing.Size(37, 21);
-            this.nUDWellCircle_R.TabIndex = 17;
-            this.nUDWellCircle_R.Value = new decimal(new int[] {
-            3,
+            this.nUDJHFontSize.Location = new System.Drawing.Point(184, 24);
+            this.nUDJHFontSize.Name = "nUDJHFontSize";
+            this.nUDJHFontSize.Size = new System.Drawing.Size(37, 21);
+            this.nUDJHFontSize.TabIndex = 20;
+            this.nUDJHFontSize.Value = new decimal(new int[] {
+            10,
             0,
             0,
             0});
-            this.nUDWellCircle_R.ValueChanged += new System.EventHandler(this.nUDWellCircle_R_ValueChanged);
+            this.nUDJHFontSize.ValueChanged += new System.EventHandler(this.nUDJHFontSize_ValueChanged);
+            // 
+            // lbl_JMFont
+            // 
+            this.lbl_JMFont.AutoSize = true;
+            this.lbl_JMFont.Location = new System.Drawing.Point(12, 29);
+            this.lbl_JMFont.Name = "lbl_JMFont";
+            this.lbl_JMFont.Size = new System.Drawing.Size(29, 12);
+            this.lbl_JMFont.TabIndex = 18;
+            this.lbl_JMFont.Text = "井名";
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Location = new System.Drawing.Point(130, 28);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(53, 12);
+            this.label32.TabIndex = 19;
+            this.label32.Text = "井名字号";
             // 
             // nUDJHtext_DX
             // 
@@ -1906,178 +2010,52 @@
             0});
             this.nUDJHtext_DX.ValueChanged += new System.EventHandler(this.nUDJHtext_DX_ValueChanged);
             // 
-            // label32
+            // nUDWellCircle_R
             // 
-            this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(130, 28);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(53, 12);
-            this.label32.TabIndex = 19;
-            this.label32.Text = "井名字号";
-            // 
-            // lbl_JMFont
-            // 
-            this.lbl_JMFont.AutoSize = true;
-            this.lbl_JMFont.Location = new System.Drawing.Point(12, 29);
-            this.lbl_JMFont.Name = "lbl_JMFont";
-            this.lbl_JMFont.Size = new System.Drawing.Size(29, 12);
-            this.lbl_JMFont.TabIndex = 18;
-            this.lbl_JMFont.Text = "井名";
-            // 
-            // nUDJHFontSize
-            // 
-            this.nUDJHFontSize.Increment = new decimal(new int[] {
+            this.nUDWellCircle_R.Increment = new decimal(new int[] {
             5,
             0,
             0,
             65536});
-            this.nUDJHFontSize.Location = new System.Drawing.Point(184, 24);
-            this.nUDJHFontSize.Name = "nUDJHFontSize";
-            this.nUDJHFontSize.Size = new System.Drawing.Size(37, 21);
-            this.nUDJHFontSize.TabIndex = 20;
-            this.nUDJHFontSize.Value = new decimal(new int[] {
-            10,
+            this.nUDWellCircle_R.Location = new System.Drawing.Point(77, 65);
+            this.nUDWellCircle_R.Name = "nUDWellCircle_R";
+            this.nUDWellCircle_R.Size = new System.Drawing.Size(37, 21);
+            this.nUDWellCircle_R.TabIndex = 17;
+            this.nUDWellCircle_R.Value = new decimal(new int[] {
+            3,
             0,
             0,
             0});
-            this.nUDJHFontSize.ValueChanged += new System.EventHandler(this.nUDJHFontSize_ValueChanged);
+            this.nUDWellCircle_R.ValueChanged += new System.EventHandler(this.nUDWellCircle_R_ValueChanged);
             // 
-            // label53
+            // label26
             // 
-            this.label53.AutoSize = true;
-            this.label53.Location = new System.Drawing.Point(11, 107);
-            this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(53, 12);
-            this.label53.TabIndex = 21;
-            this.label53.Text = "井圈宽度";
+            this.label26.AutoSize = true;
+            this.label26.Location = new System.Drawing.Point(135, 69);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(29, 12);
+            this.label26.TabIndex = 12;
+            this.label26.Text = "偏移";
             // 
-            // nUDCirleLineWidth
+            // btnWellNameFont
             // 
-            this.nUDCirleLineWidth.Location = new System.Drawing.Point(77, 102);
-            this.nUDCirleLineWidth.Name = "nUDCirleLineWidth";
-            this.nUDCirleLineWidth.Size = new System.Drawing.Size(37, 21);
-            this.nUDCirleLineWidth.TabIndex = 22;
-            this.nUDCirleLineWidth.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.nUDCirleLineWidth.ValueChanged += new System.EventHandler(this.nUDCirleLineWidth_ValueChanged);
+            this.btnWellNameFont.Location = new System.Drawing.Point(44, 22);
+            this.btnWellNameFont.Margin = new System.Windows.Forms.Padding(2);
+            this.btnWellNameFont.Name = "btnWellNameFont";
+            this.btnWellNameFont.Size = new System.Drawing.Size(81, 22);
+            this.btnWellNameFont.TabIndex = 15;
+            this.btnWellNameFont.Text = "字体设置";
+            this.btnWellNameFont.UseVisualStyleBackColor = true;
+            this.btnWellNameFont.Click += new System.EventHandler(this.btnWellNameFont_Click);
             // 
-            // cbbSelectedXCM
+            // label12
             // 
-            this.cbbSelectedXCM.FormattingEnabled = true;
-            this.cbbSelectedXCM.Location = new System.Drawing.Point(44, 24);
-            this.cbbSelectedXCM.Name = "cbbSelectedXCM";
-            this.cbbSelectedXCM.Size = new System.Drawing.Size(163, 20);
-            this.cbbSelectedXCM.TabIndex = 7;
-            this.cbbSelectedXCM.SelectedIndexChanged += new System.EventHandler(this.cbbSelectedXCM_SelectedIndexChanged);
-            // 
-            // groupBox24
-            // 
-            this.groupBox24.Controls.Add(this.nUDFaultLineWidth);
-            this.groupBox24.Controls.Add(this.cbbCorlorFaultLine);
-            this.groupBox24.Controls.Add(this.label11);
-            this.groupBox24.Controls.Add(this.cbxAddFaultLine);
-            this.groupBox24.Controls.Add(this.label9);
-            this.groupBox24.Location = new System.Drawing.Point(14, 270);
-            this.groupBox24.Name = "groupBox24";
-            this.groupBox24.Size = new System.Drawing.Size(258, 93);
-            this.groupBox24.TabIndex = 22;
-            this.groupBox24.TabStop = false;
-            this.groupBox24.Text = "断层线设置";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(119, 47);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(29, 12);
-            this.label9.TabIndex = 12;
-            this.label9.Text = "线宽";
-            // 
-            // cbxAddFaultLine
-            // 
-            this.cbxAddFaultLine.AutoSize = true;
-            this.cbxAddFaultLine.Location = new System.Drawing.Point(11, 22);
-            this.cbxAddFaultLine.Name = "cbxAddFaultLine";
-            this.cbxAddFaultLine.Size = new System.Drawing.Size(84, 16);
-            this.cbxAddFaultLine.TabIndex = 21;
-            this.cbxAddFaultLine.Text = "层位断层线";
-            this.cbxAddFaultLine.UseVisualStyleBackColor = true;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(10, 47);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(29, 12);
-            this.label11.TabIndex = 12;
-            this.label11.Text = "颜色";
-            // 
-            // cbbCorlorFaultLine
-            // 
-            this.cbbCorlorFaultLine.BackColor = System.Drawing.Color.Red;
-            this.cbbCorlorFaultLine.FormattingEnabled = true;
-            this.cbbCorlorFaultLine.Location = new System.Drawing.Point(45, 44);
-            this.cbbCorlorFaultLine.Name = "cbbCorlorFaultLine";
-            this.cbbCorlorFaultLine.Size = new System.Drawing.Size(61, 20);
-            this.cbbCorlorFaultLine.TabIndex = 10;
-            // 
-            // nUDFaultLineWidth
-            // 
-            this.nUDFaultLineWidth.Increment = new decimal(new int[] {
-            5,
-            0,
-            0,
-            65536});
-            this.nUDFaultLineWidth.Location = new System.Drawing.Point(161, 43);
-            this.nUDFaultLineWidth.Name = "nUDFaultLineWidth";
-            this.nUDFaultLineWidth.Size = new System.Drawing.Size(57, 21);
-            this.nUDFaultLineWidth.TabIndex = 17;
-            this.nUDFaultLineWidth.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 27);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(29, 12);
-            this.label1.TabIndex = 8;
-            this.label1.Text = "层名";
-            // 
-            // btnAddBaseLayer
-            // 
-            this.btnAddBaseLayer.Location = new System.Drawing.Point(391, 20);
-            this.btnAddBaseLayer.Margin = new System.Windows.Forms.Padding(2);
-            this.btnAddBaseLayer.Name = "btnAddBaseLayer";
-            this.btnAddBaseLayer.Size = new System.Drawing.Size(76, 24);
-            this.btnAddBaseLayer.TabIndex = 25;
-            this.btnAddBaseLayer.Text = "确定";
-            this.btnAddBaseLayer.UseVisualStyleBackColor = true;
-            this.btnAddBaseLayer.Click += new System.EventHandler(this.btnAddBaseLayer_Click);
-            // 
-            // cbbSelectedYM
-            // 
-            this.cbbSelectedYM.FormattingEnabled = true;
-            this.cbbSelectedYM.Location = new System.Drawing.Point(263, 22);
-            this.cbbSelectedYM.Name = "cbbSelectedYM";
-            this.cbbSelectedYM.Size = new System.Drawing.Size(93, 20);
-            this.cbbSelectedYM.TabIndex = 26;
-            this.cbbSelectedYM.SelectedIndexChanged += new System.EventHandler(this.cbbSelectedYM_SelectedIndexChanged);
-            // 
-            // label50
-            // 
-            this.label50.AutoSize = true;
-            this.label50.Location = new System.Drawing.Point(225, 25);
-            this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(29, 12);
-            this.label50.TabIndex = 27;
-            this.label50.Text = "年月";
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(11, 70);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(65, 12);
+            this.label12.TabIndex = 12;
+            this.label12.Text = "井符号半径";
             // 
             // tbcLayerMap
             // 
@@ -2134,39 +2112,39 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).EndInit();
             this.tbgPropertySetting.ResumeLayout(false);
             this.tbgPropertySetting.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nUDPageWidth)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nUDPageHeight)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nUDrefX)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nUDrefY)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nUDrefX)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nUDPageHeight)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nUDPageWidth)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.tbgDataOuter.ResumeLayout(false);
             this.tbgDataOuter.PerformLayout();
-            this.groupBox10.ResumeLayout(false);
-            this.groupBox10.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nUDLayerOpcity)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvOuterDataLayerWellValues)).EndInit();
-            this.groupBox28.ResumeLayout(false);
-            this.groupBox28.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown12)).EndInit();
             this.groupBox29.ResumeLayout(false);
             this.groupBox29.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nUDOuterDataLayerRectWidth)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown11)).EndInit();
+            this.groupBox28.ResumeLayout(false);
+            this.groupBox28.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvOuterDataLayerWellValues)).EndInit();
+            this.groupBox10.ResumeLayout(false);
+            this.groupBox10.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nUDLayerOpcity)).EndInit();
             this.tbgGeoWellPosition.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            this.groupBox8.ResumeLayout(false);
-            this.groupBox8.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nUDWellCircle_R)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nUDJHtext_DX)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nUDJHFontSize)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nUDCirleLineWidth)).EndInit();
             this.groupBox24.ResumeLayout(false);
             this.groupBox24.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nUDFaultLineWidth)).EndInit();
+            this.groupBox8.ResumeLayout(false);
+            this.groupBox8.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nUDCirleLineWidth)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nUDJHFontSize)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nUDJHtext_DX)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nUDWellCircle_R)).EndInit();
             this.tbcLayerMap.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -2311,8 +2289,6 @@
         private System.Windows.Forms.TextBox tbxDataLayerID;
         private System.Windows.Forms.TabPage tbgGeoWellPosition;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Label label50;
-        private System.Windows.Forms.ComboBox cbbSelectedYM;
         private System.Windows.Forms.Button btnAddBaseLayer;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox24;

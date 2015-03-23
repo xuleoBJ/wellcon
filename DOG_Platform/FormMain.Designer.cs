@@ -113,8 +113,6 @@
             this.ToolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
             this.tscbbScale = new System.Windows.Forms.ToolStripComboBox();
             this.ToolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.tslblLayer = new System.Windows.Forms.ToolStripLabel();
-            this.tscbbLayer = new System.Windows.Forms.ToolStripComboBox();
             this.cmsProject = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.根据有效层段处理分层数据ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiSelecDataInproject = new System.Windows.Forms.ToolStripMenuItem();
@@ -743,8 +741,8 @@
             this.tsmiWells,
             this.tsmiWellTops});
             this.tsmiInsert.Name = "tsmiInsert";
-            this.tsmiInsert.Size = new System.Drawing.Size(124, 22);
-            this.tsmiInsert.Text = "基础数据";
+            this.tsmiInsert.Size = new System.Drawing.Size(152, 22);
+            this.tsmiInsert.Text = "项目井层数据";
             // 
             // tsmiWells
             // 
@@ -763,23 +761,23 @@
             // tsmiProjectDataInput
             // 
             this.tsmiProjectDataInput.Name = "tsmiProjectDataInput";
-            this.tsmiProjectDataInput.Size = new System.Drawing.Size(124, 22);
-            this.tsmiProjectDataInput.Text = "工程数据";
+            this.tsmiProjectDataInput.Size = new System.Drawing.Size(152, 22);
+            this.tsmiProjectDataInput.Text = "工程数据输入";
             this.tsmiProjectDataInput.Click += new System.EventHandler(this.tsmiProjectDataInput_Click);
             // 
             // tsmiProjectDataView
             // 
             this.tsmiProjectDataView.Name = "tsmiProjectDataView";
-            this.tsmiProjectDataView.Size = new System.Drawing.Size(124, 22);
-            this.tsmiProjectDataView.Text = "单井查看";
+            this.tsmiProjectDataView.Size = new System.Drawing.Size(152, 22);
+            this.tsmiProjectDataView.Text = "单井数据查看";
             this.tsmiProjectDataView.Click += new System.EventHandler(this.tsmiProjectDataView_Click);
             // 
             // 计算ToolStripMenuItem
             // 
             this.计算ToolStripMenuItem.Name = "计算ToolStripMenuItem";
-            this.计算ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
-            this.计算ToolStripMenuItem.Text = "计算";
-            this.计算ToolStripMenuItem.Click += new System.EventHandler(this.计算ToolStripMenuItem_Click_1);
+            this.计算ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.计算ToolStripMenuItem.Text = "地质统计计算";
+            this.计算ToolStripMenuItem.Click += new System.EventHandler(this.计算ToolStripMenuItem_Click);
             // 
             // tsmiGeologyLayer
             // 
@@ -838,12 +836,10 @@
             this.tsmiMove,
             this.ToolStripLabel1,
             this.tscbbScale,
-            this.ToolStripSeparator2,
-            this.tslblLayer,
-            this.tscbbLayer});
+            this.ToolStripSeparator2});
             this.ToolStripMain.Location = new System.Drawing.Point(3, 25);
             this.ToolStripMain.Name = "ToolStripMain";
-            this.ToolStripMain.Size = new System.Drawing.Size(556, 25);
+            this.ToolStripMain.Size = new System.Drawing.Size(377, 25);
             this.ToolStripMain.TabIndex = 3;
             // 
             // tsBtnNewProject
@@ -962,17 +958,6 @@
             this.ToolStripSeparator2.Name = "ToolStripSeparator2";
             this.ToolStripSeparator2.Size = new System.Drawing.Size(6, 25);
             // 
-            // tslblLayer
-            // 
-            this.tslblLayer.Name = "tslblLayer";
-            this.tslblLayer.Size = new System.Drawing.Size(56, 22);
-            this.tslblLayer.Text = "选择小层";
-            // 
-            // tscbbLayer
-            // 
-            this.tscbbLayer.Name = "tscbbLayer";
-            this.tscbbLayer.Size = new System.Drawing.Size(121, 25);
-            // 
             // cmsProject
             // 
             this.cmsProject.Name = "cmsProjectWells";
@@ -1022,7 +1007,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "wellCon";
+            this.Text = "WellCon井间联通性描述";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormMain_FormClosing);
             this.Load += new System.EventHandler(this.FormMain_Load);
@@ -1154,8 +1139,6 @@
         private System.Windows.Forms.TreeView tvResultTable;
         private System.Windows.Forms.TabPage tbgMainTable;
         private System.Windows.Forms.DataGridView dgvDataTable;
-        private System.Windows.Forms.ToolStripLabel tslblLayer;
-        private System.Windows.Forms.ToolStripComboBox tscbbLayer;
         private System.Windows.Forms.ToolStripMenuItem tsmiProjectDataInput;
         private System.Windows.Forms.ToolStripMenuItem tsmiProjectDataView;
         private System.Windows.Forms.ToolStripMenuItem 栅状图ToolStripMenuItem;

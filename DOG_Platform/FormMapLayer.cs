@@ -71,7 +71,6 @@ namespace DOGPlatform
             ltStrStaticDataChoise.Add("渗透率");
             ltStrStaticDataChoise.Add("饱和度");
             cbbSelectedXCM.DataSource = cProjectData.ltStrProjectXCM;
-            cbbSelectedYM.DataSource = cProjectData.ltStrProjectYM;
             cPublicMethodForm.inialComboBox(cbbUnit, new List<string>(new string[] { "px", "pt", "mm", "pc", "cm", "in" }));
             this.nUDrefX.Value = decimal.Parse(cProjectData.dfMapXrealRefer.ToString());
             this.nUDrefY.Value = decimal.Parse(cProjectData.dfMapYrealRefer.ToString());
@@ -375,12 +374,10 @@ namespace DOGPlatform
             cXMLLayerMapStatic.addWellStaticDataDic2XML(filePathXMLcurrentLayer, sSelectLayer, listLayersDataCurrentLayerStatic);
         }
 
-    
-
 
         private void cbbSelectedYM_SelectedIndexChanged(object sender, EventArgs e)
         {
-            sSelectYM = cbbSelectedYM.SelectedItem.ToString();
+            sSelectYM = DateTime.Now.ToString("yyyyMM");
         }
 
 
