@@ -79,10 +79,9 @@ namespace DOGPlatform
             tsmiDigger.Click += new System.EventHandler(tsmiDigger_Click);
             tsmiTools.DropDownItems.Add(tsmiCalArea);
             tsmiCalArea.Click += new System.EventHandler(tsmiCalArea_Click);
-           
 
-            tsmiTools.DropDownItems.Add(tsmiDataDeal);
-            tsmiDataDeal.Click += new System.EventHandler(tsmiDataDeal_Click);
+            //tsmiTools.DropDownItems.Add(tsmiDataDeal);
+            //tsmiDataDeal.Click += new System.EventHandler(tsmiDataDeal_Click);
 
             tsmiTools.DropDownItems.Add(tsmiStrata);
             tsmiStrata.Click += new System.EventHandler(tsmiStrata_Click);

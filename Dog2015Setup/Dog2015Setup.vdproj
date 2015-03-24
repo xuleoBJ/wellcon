@@ -33,7 +33,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_70AB50AFB77857FF24179CA8406B9FE8"
+        "MsmKey" = "8:_95A2273D30C8E516756F3A6C3EB13E3A"
         "OwnerKey" = "8:_198ED484E4384295B57A10838A120569"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -52,7 +52,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_70AB50AFB77857FF24179CA8406B9FE8"
+        "OwnerKey" = "8:_95A2273D30C8E516756F3A6C3EB13E3A"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -100,7 +100,7 @@
         "DisplayName" = "8:Release"
         "IsDebugOnly" = "11:FALSE"
         "IsReleaseOnly" = "11:TRUE"
-        "OutputFilename" = "8:Release\\GeoScape.msi"
+        "OutputFilename" = "8:Release\\wellCon井间联通描述.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -200,14 +200,14 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_70AB50AFB77857FF24179CA8406B9FE8"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_95A2273D30C8E516756F3A6C3EB13E3A"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:DigRobot, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_70AB50AFB77857FF24179CA8406B9FE8"
+                    "_95A2273D30C8E516756F3A6C3EB13E3A"
                     {
                     "Name" = "8:DigRobot.exe"
                     "Attributes" = "3:512"
@@ -291,7 +291,7 @@
                 {
                     "{9EF0B969-E518-4E46-987F-47570745A589}:_6EE65C4FE0A145DEABE9152A2EB9FB27"
                     {
-                    "Name" = "8:geoScape"
+                    "Name" = "8:wellCon"
                     "AlwaysCreate" = "11:FALSE"
                     "Condition" = "8:"
                     "Transitive" = "11:FALSE"
@@ -317,9 +317,9 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:geoScape"
+        "ProductName" = "8:wellCon井间联通绘制软件"
         "ProductCode" = "8:{844F4AB0-CF57-4D2C-9949-B83D3CAF4957}"
-        "PackageCode" = "8:{976D478B-8E94-4770-BAE4-0E6FB2C7D5C7}"
+        "PackageCode" = "8:{CD8B16E2-62D3-47FE-ADC8-FB3E61A7E10B}"
         "UpgradeCode" = "8:{F4F7F4B9-DAE9-4649-8811-5EA2BBF299FF}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -327,10 +327,10 @@
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
         "ProductVersion" = "8:1.0.0"
-        "Manufacturer" = "8:RIPED"
+        "Manufacturer" = "8:泰泽工作室"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
-        "Title" = "8:GeoScape"
+        "Title" = "8:wellCon"
         "Subject" = "8:"
         "ARPCONTACT" = "8:xuleo"
         "Keywords" = "8:"
@@ -455,7 +455,7 @@
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_A6AF401ABB80482989EBA0E084ECA7F1"
             {
-            "Name" = "8:GeoScape"
+            "Name" = "8:wellCon"
             "Arguments" = "8:/x {844F4AB0-CF57-4D2C-9949-B83D3CAF4957}"
             "Description" = "8:"
             "ShowCmd" = "3:1"
@@ -469,7 +469,7 @@
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_E523C623CEBC4660B775BB5BF8B1D4E8"
             {
-            "Name" = "8:geoScape"
+            "Name" = "8:wellCon"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
@@ -882,7 +882,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_198ED484E4384295B57A10838A120569"
             {
-            "SourcePath" = "8:..\\DOG_Platform\\obj\\Debug\\DOGPlatform.exe"
+            "SourcePath" = "8:..\\DOG_Platform\\obj\\Release\\DOGPlatform.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_07359100B0A64B87B85FCE2E3BABCE5A"

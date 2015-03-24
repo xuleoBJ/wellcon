@@ -63,3 +63,14 @@ E:\ProjectPlatform\2015geo\Digger\DigRobot\obj\Release\DigRobot.Properties.Resou
 E:\ProjectPlatform\2015geo\Digger\DigRobot\obj\Release\DigRobot.csproj.GenerateResource.Cache
 E:\ProjectPlatform\2015geo\Digger\DigRobot\obj\Release\DigRobot.exe
 E:\ProjectPlatform\2015geo\Digger\DigRobot\obj\Release\DigRobot.pdb
+E:\ProjectPlatform\2015WellCon\wellcon\Digger\DigRobot\bin\Release\DigRobot.exe.config
+E:\ProjectPlatform\2015WellCon\wellcon\Digger\DigRobot\bin\Release\DigRobot.exe
+E:\ProjectPlatform\2015WellCon\wellcon\Digger\DigRobot\bin\Release\DigRobot.pdb
+E:\ProjectPlatform\2015WellCon\wellcon\Digger\DigRobot\obj\Release\DigRobot._3PointCoordinateForm.resources
+E:\ProjectPlatform\2015WellCon\wellcon\Digger\DigRobot\obj\Release\DigRobot.aboutForm.resources
+E:\ProjectPlatform\2015WellCon\wellcon\Digger\DigRobot\obj\Release\DigRobot.coordinateLocationForm.resources
+E:\ProjectPlatform\2015WellCon\wellcon\Digger\DigRobot\obj\Release\DigRobot.FormDigRobot.resources
+E:\ProjectPlatform\2015WellCon\wellcon\Digger\DigRobot\obj\Release\DigRobot.Properties.Resources.resources
+E:\ProjectPlatform\2015WellCon\wellcon\Digger\DigRobot\obj\Release\DigRobot.csproj.GenerateResource.Cache
+E:\ProjectPlatform\2015WellCon\wellcon\Digger\DigRobot\obj\Release\DigRobot.exe
+E:\ProjectPlatform\2015WellCon\wellcon\Digger\DigRobot\obj\Release\DigRobot.pdb
