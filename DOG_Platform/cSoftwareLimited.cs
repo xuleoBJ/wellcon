@@ -10,7 +10,7 @@ namespace DOGPlatform
         public static bool  limitedDay()
         {
             bool bValidDay = true;
-            int iValidEndDay=20150630;
+            int iValidEndDay=20160630;
             int iToday = int.Parse(DateTime.Today.ToString("yyyyMMdd"));
             if (iToday>= iValidEndDay)
                bValidDay =false ;

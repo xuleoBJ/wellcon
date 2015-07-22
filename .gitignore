@@ -5,6 +5,12 @@ ehthumbs.db
 # Folder config file
 Desktop.ini
 
+#xuleo filters
+Dog2015Setup/Debug/
+Dog2015Setup/Release/
+demoData/
+
+
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
 

@@ -475,7 +475,7 @@
             this.tbgWellHead.Location = new System.Drawing.Point(4, 22);
             this.tbgWellHead.Name = "tbgWellHead";
             this.tbgWellHead.Padding = new System.Windows.Forms.Padding(3);
-            this.tbgWellHead.Size = new System.Drawing.Size(917, 606);
+            this.tbgWellHead.Size = new System.Drawing.Size(917, 610);
             this.tbgWellHead.TabIndex = 0;
             this.tbgWellHead.Text = "井位数据";
             this.tbgWellHead.UseVisualStyleBackColor = true;
@@ -526,7 +526,7 @@
             this.splitter2.Location = new System.Drawing.Point(3, 3);
             this.splitter2.Margin = new System.Windows.Forms.Padding(2);
             this.splitter2.Name = "splitter2";
-            this.splitter2.Size = new System.Drawing.Size(2, 600);
+            this.splitter2.Size = new System.Drawing.Size(2, 604);
             this.splitter2.TabIndex = 15;
             this.splitter2.TabStop = false;
             // 
@@ -741,7 +741,7 @@
             this.tsmiWells,
             this.tsmiWellTops});
             this.tsmiInsert.Name = "tsmiInsert";
-            this.tsmiInsert.Size = new System.Drawing.Size(152, 22);
+            this.tsmiInsert.Size = new System.Drawing.Size(148, 22);
             this.tsmiInsert.Text = "项目井层数据";
             // 
             // tsmiWells
@@ -761,21 +761,21 @@
             // tsmiProjectDataInput
             // 
             this.tsmiProjectDataInput.Name = "tsmiProjectDataInput";
-            this.tsmiProjectDataInput.Size = new System.Drawing.Size(152, 22);
+            this.tsmiProjectDataInput.Size = new System.Drawing.Size(148, 22);
             this.tsmiProjectDataInput.Text = "工程数据输入";
             this.tsmiProjectDataInput.Click += new System.EventHandler(this.tsmiProjectDataInput_Click);
             // 
             // tsmiProjectDataView
             // 
             this.tsmiProjectDataView.Name = "tsmiProjectDataView";
-            this.tsmiProjectDataView.Size = new System.Drawing.Size(152, 22);
+            this.tsmiProjectDataView.Size = new System.Drawing.Size(148, 22);
             this.tsmiProjectDataView.Text = "单井数据查看";
             this.tsmiProjectDataView.Click += new System.EventHandler(this.tsmiProjectDataView_Click);
             // 
             // 计算ToolStripMenuItem
             // 
             this.计算ToolStripMenuItem.Name = "计算ToolStripMenuItem";
-            this.计算ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.计算ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.计算ToolStripMenuItem.Text = "地质统计计算";
             this.计算ToolStripMenuItem.Click += new System.EventHandler(this.计算ToolStripMenuItem_Click);
             // 
