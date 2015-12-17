@@ -31,7 +31,6 @@ namespace DOGPlatform
                     tnWellLogDir.Nodes.Add(tnLog);
                 }
                 tnJH.Nodes.Add(tnWellLogDir);
-                
                
                 tnWells.Nodes.Add(tnJH);
             }

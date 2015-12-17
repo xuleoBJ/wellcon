@@ -8,6 +8,10 @@ Desktop.ini
 #xuleo filters
 Dog2015Setup/Debug/
 Dog2015Setup/Release/
+DOG_Platform/bin/
+DOG_Platform/obj/
+Digger/DigRobot/obj/
+Digger/DigRobot/bin/
 demoData/
 
 

@@ -448,7 +448,7 @@
             this.tbgMainTable.Location = new System.Drawing.Point(4, 22);
             this.tbgMainTable.Name = "tbgMainTable";
             this.tbgMainTable.Padding = new System.Windows.Forms.Padding(3);
-            this.tbgMainTable.Size = new System.Drawing.Size(917, 606);
+            this.tbgMainTable.Size = new System.Drawing.Size(917, 610);
             this.tbgMainTable.TabIndex = 16;
             this.tbgMainTable.Text = "成果表";
             this.tbgMainTable.UseVisualStyleBackColor = true;
@@ -461,7 +461,7 @@
             this.dgvDataTable.Margin = new System.Windows.Forms.Padding(2);
             this.dgvDataTable.Name = "dgvDataTable";
             this.dgvDataTable.RowTemplate.Height = 27;
-            this.dgvDataTable.Size = new System.Drawing.Size(911, 600);
+            this.dgvDataTable.Size = new System.Drawing.Size(911, 604);
             this.dgvDataTable.TabIndex = 2;
             // 
             // tbgWellHead
@@ -497,7 +497,7 @@
             this.btnCopyFromExcelWellHead.Name = "btnCopyFromExcelWellHead";
             this.btnCopyFromExcelWellHead.Size = new System.Drawing.Size(90, 23);
             this.btnCopyFromExcelWellHead.TabIndex = 20;
-            this.btnCopyFromExcelWellHead.Text = "从Excel粘贴";
+            this.btnCopyFromExcelWellHead.Text = "Excel粘贴";
             this.btnCopyFromExcelWellHead.UseVisualStyleBackColor = true;
             this.btnCopyFromExcelWellHead.Click += new System.EventHandler(this.btnCopyFromExcelWellHead_Click);
             // 
@@ -517,7 +517,7 @@
             this.btnOpenWellHead.Name = "btnOpenWellHead";
             this.btnOpenWellHead.Size = new System.Drawing.Size(90, 23);
             this.btnOpenWellHead.TabIndex = 16;
-            this.btnOpenWellHead.Text = "读取文件";
+            this.btnOpenWellHead.Text = "txt读取";
             this.btnOpenWellHead.UseVisualStyleBackColor = true;
             this.btnOpenWellHead.Click += new System.EventHandler(this.btnOpenWellHead_Click);
             // 
@@ -585,17 +585,17 @@
             this.tbgLayerSeriers.Controls.Add(this.dgvLayerSeriers);
             this.tbgLayerSeriers.Location = new System.Drawing.Point(4, 22);
             this.tbgLayerSeriers.Name = "tbgLayerSeriers";
-            this.tbgLayerSeriers.Size = new System.Drawing.Size(917, 606);
+            this.tbgLayerSeriers.Size = new System.Drawing.Size(917, 610);
             this.tbgLayerSeriers.TabIndex = 5;
             this.tbgLayerSeriers.Text = "层序";
             this.tbgLayerSeriers.UseVisualStyleBackColor = true;
             // 
             // btnInputLayerSerieresdelDgvLine
             // 
-            this.btnInputLayerSerieresdelDgvLine.Location = new System.Drawing.Point(200, 11);
+            this.btnInputLayerSerieresdelDgvLine.Location = new System.Drawing.Point(216, 11);
             this.btnInputLayerSerieresdelDgvLine.Margin = new System.Windows.Forms.Padding(2);
             this.btnInputLayerSerieresdelDgvLine.Name = "btnInputLayerSerieresdelDgvLine";
-            this.btnInputLayerSerieresdelDgvLine.Size = new System.Drawing.Size(80, 23);
+            this.btnInputLayerSerieresdelDgvLine.Size = new System.Drawing.Size(86, 23);
             this.btnInputLayerSerieresdelDgvLine.TabIndex = 22;
             this.btnInputLayerSerieresdelDgvLine.Text = "删除选中行";
             this.btnInputLayerSerieresdelDgvLine.UseVisualStyleBackColor = true;
@@ -603,19 +603,19 @@
             // 
             // btnCopyFromExcelLayerSeriers
             // 
-            this.btnCopyFromExcelLayerSeriers.Location = new System.Drawing.Point(104, 12);
+            this.btnCopyFromExcelLayerSeriers.Location = new System.Drawing.Point(112, 12);
             this.btnCopyFromExcelLayerSeriers.Name = "btnCopyFromExcelLayerSeriers";
-            this.btnCopyFromExcelLayerSeriers.Size = new System.Drawing.Size(80, 23);
+            this.btnCopyFromExcelLayerSeriers.Size = new System.Drawing.Size(86, 23);
             this.btnCopyFromExcelLayerSeriers.TabIndex = 15;
-            this.btnCopyFromExcelLayerSeriers.Text = "从Excel粘贴";
+            this.btnCopyFromExcelLayerSeriers.Text = "Excel粘贴";
             this.btnCopyFromExcelLayerSeriers.UseVisualStyleBackColor = true;
             this.btnCopyFromExcelLayerSeriers.Click += new System.EventHandler(this.btnCopyFromExcelLayerSeriers_Click);
             // 
             // btnImportLayerSeriers
             // 
-            this.btnImportLayerSeriers.Location = new System.Drawing.Point(296, 11);
+            this.btnImportLayerSeriers.Location = new System.Drawing.Point(320, 11);
             this.btnImportLayerSeriers.Name = "btnImportLayerSeriers";
-            this.btnImportLayerSeriers.Size = new System.Drawing.Size(80, 23);
+            this.btnImportLayerSeriers.Size = new System.Drawing.Size(86, 23);
             this.btnImportLayerSeriers.TabIndex = 2;
             this.btnImportLayerSeriers.Text = "入库";
             this.btnImportLayerSeriers.UseVisualStyleBackColor = true;
@@ -625,9 +625,9 @@
             // 
             this.btnOpenLayerSeriers.Location = new System.Drawing.Point(8, 11);
             this.btnOpenLayerSeriers.Name = "btnOpenLayerSeriers";
-            this.btnOpenLayerSeriers.Size = new System.Drawing.Size(80, 23);
+            this.btnOpenLayerSeriers.Size = new System.Drawing.Size(86, 23);
             this.btnOpenLayerSeriers.TabIndex = 2;
-            this.btnOpenLayerSeriers.Text = "读取文件";
+            this.btnOpenLayerSeriers.Text = "txt文件";
             this.btnOpenLayerSeriers.UseVisualStyleBackColor = true;
             this.btnOpenLayerSeriers.Click += new System.EventHandler(this.btnOpenLayerSeriers_Click);
             // 
